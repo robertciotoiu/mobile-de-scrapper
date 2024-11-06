@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mobile-de-scraper
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mobile-de-scraper
+  template:
+    metadata:
+      labels:
+        app: mobile-de-scraper
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: rserver
+      containers:
+        - name: mobile-de-scraper
+          image: localhost:5000/com.robertciotoiu/mobile-de-scraper:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_RABBITMQ_HOST
+              value: rabbitmq-service
+            - name: SPRING_RABBITMQ_PORT
+              value: "5672"
+            - name: SPRING_RABBITMQ_USERNAME
+              value: guest
+            - name: SPRING_RABBITMQ_PASSWORD
+              value: guest
+
+            - name: SPRING_DATA_MONGODB_HOST
+              value: mongodb-service
+            - name: SPRING_DATA_MONGODB_PORT
+              value: "27017"
+            - name: SPRING_DATA_MONGODB_USERNAME
+              value: admin
+            - name: SPRING_DATA_MONGODB_PASSWORD
+              value: admin
+            - name: SPRING_DATA_MONGODB_DATABASE
+              value: mobile-de-car-data
+            - name: management.endpoint.health.probes.enabled
+              value: "true"
+            - name: management.health.livenessState.enabled
+              value: "true"
+            - name: management.health.readinessState.enabled
+              value: "true"

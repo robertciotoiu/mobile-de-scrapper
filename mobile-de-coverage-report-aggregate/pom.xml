@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>mobile-de-coverage-report-aggregate</artifactId>
-    <name>Coverage report aggregate</name>
+    <name>mobile-de-coverage-report-aggregate</name>
     <description>Aggregate Jacoco Coverage Report</description>
 
     <properties>

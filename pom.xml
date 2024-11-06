@@ -17,6 +17,7 @@
         <module>mobile-de-shared</module>
         <module>mobile-de-coverage-report-aggregate</module>
         <module>mobile-de-rabbitmq</module>
+        <module>utils</module>
     </modules>
 
     <properties>
@@ -25,7 +26,7 @@
         <mobilede.shared.version>1.0-SNAPSHOT</mobilede.shared.version>
         <mobilede.rabbitmq.version>1.0-SNAPSHOT</mobilede.rabbitmq.version>
         <java.version>17</java.version>
-        <spring.version>3.0.4</spring.version>
+        <spring.version>3.1.1</spring.version>
         <lombok.version>1.18.22</lombok.version>
         <jacoco.version>0.8.8</jacoco.version>
         <!--TODO: improve the coverage-->

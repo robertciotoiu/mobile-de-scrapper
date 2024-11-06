@@ -1,0 +1,71 @@
+service:
+
+type: ClusterIP
+
+ingress:
+
+enabled: true
+
+hostname: matomo.nextca.eu
+
+annotations:
+
+  cert-manager.io/cluster-issuer: "letsencrypt-prod"
+
+  nginx.ingress.kubernetes.io/proxy-body-size: "50m"
+
+tls:
+
+  - hosts:
+
+      - matomo.nextca.eu
+
+    secretName: matomo-tls
+
+extraEnvVars:
+
+name: MATOMO_ENABLE_COOKIES
+  value: "0" # Disable tracking cookies
+
+name: MATOMO_ANONYMIZE_IP
+  value: "1" # Anonymize IP addresses
+
+name: MATOMO_ENABLE_USER_ID
+  value: "0" # Disable user tracking ID
+
+name: MATOMO_FORCE_SSL
+  value: "1" # Force HTTPS
+
+name: MATOMO_ARCHIVING_ENABLED
+  value: "1" # Optimize performance for medium traffic
+
+name: MATOMO_TRUSTED_HOSTS
+  value: "matomo.nextca.eu"
+
+matomoUsername: "robertciotoiu"
+
+password: "<SET>"
+
+email: "robert.ciotoiu@gmail.com"
+
+mariadb:
+
+enabled: true
+
+auth:
+
+  database: matomo
+
+  username: matomo
+
+  password: "<SET>" # Change this!
+
+  rootPassword: "<SET>" # Change this!
+
+persistence:
+
+enabled: true
+
+storageClass: microk8s-hostpath
+
+size: 10Gi

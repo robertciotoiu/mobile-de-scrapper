@@ -1,0 +1,83 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rabbitmq
+spec:
+  selector:
+    matchLabels:
+      app: rabbitmq
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: rabbitmq
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: rserver
+      initContainers:
+        - name: mongodb-wait
+          image: busybox:1.35.0-uclibc
+          command:
+            - /bin/sh
+            - -c
+            - |
+              until nc -z mongodb-service.mobile-de-data-collector.svc.cluster.local 27017; do
+                  echo waiting for mongodb-service; sleep 2;
+              done
+      containers:
+        - name: mobile-de-rabbitmq
+          image: harbor.nextca.eu/eu.nextca/mobile-de-rabbitmq:latest
+          readinessProbe:
+            exec:
+              command:
+                - /bin/sh
+                - -c
+                - |
+                  pingStatus=$(rabbitmq-diagnostics ping | grep "Ping succeeded")
+                  if [ -z "$pingStatus" ]; then
+                    exit 1
+                  fi
+            initialDelaySeconds: 10
+            periodSeconds: 5
+            failureThreshold: 3
+          livenessProbe:
+            exec:
+              command:
+                  - /bin/sh
+                  - -c
+                  - |
+                      pingStatus=$(rabbitmq-diagnostics ping | grep "Ping succeeded")
+                      if [ -z "$pingStatus" ]; then
+                        exit 1
+                      fi
+            initialDelaySeconds: 10
+            periodSeconds: 5
+            failureThreshold: 3
+          env:
+            - name: SPRING_RABBITMQ_HOST
+              value: rabbitmq-service
+            - name: SPRING_RABBITMQ_PORT
+              value: "5672"
+            - name: SPRING_RABBITMQ_USERNAME
+              value: guest
+            - name: SPRING_RABBITMQ_PASSWORD
+              value: guest
+          ports:
+            - containerPort: 5672
+            - containerPort: 15672
+          command: ["rabbitmq-server"]
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rabbitmq-service
+spec:
+  selector:
+    app: rabbitmq
+  ports:
+    - name: amqp
+      port: 5672
+      targetPort: 5672
+    - name: management
+      port: 15672
+      targetPort: 15672

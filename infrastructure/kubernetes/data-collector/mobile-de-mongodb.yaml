@@ -1,0 +1,72 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongodb
+spec:
+  selector:
+    matchLabels:
+      app: mongodb
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mongodb
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: rserver2
+      terminationGracePeriodSeconds: 10
+      containers:
+        - name: mobile-de-mongodb
+          image: mongo:4.4.6
+          readinessProbe:
+            exec:
+              command:
+                - "pgrep"
+                - "mongod"  # Check if the mongod process is running
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            exec:
+              command:
+                - mongosh
+                - --port $MONGODB_PORT_NUMBER --eval "db.adminCommand('ping')"
+            initialDelaySeconds: 10
+            periodSeconds: 5
+          ports:
+            - containerPort: 27017
+          env:
+            - name: MONGO_INITDB_ROOT_USERNAME
+              value: admin
+            - name: MONGO_INITDB_ROOT_PASSWORD
+              value: admin
+            - name: MONGO_INITDB_DATABASE
+              value: mobile-de-car-data
+#            - name: LOCAL_PATH
+#              valueFrom:
+#                configMapKeyRef:
+#                  name: mongodb-configmap
+#                  key: localPath
+          volumeMounts:
+            - name: mongodb-data
+              mountPath: /data/db
+      volumes:
+        - name: mongodb-data
+          persistentVolumeClaim:
+            claimName: mobile-mongodb-pvc
+#          hostPath:
+#            path: /home/rserver/data/mobile-de-data/mongodb
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb-service
+spec:
+  type: NodePort
+  selector:
+    app: mongodb
+  ports:
+    - name: mongodb-port
+      protocol: TCP
+      port: 27017
+      targetPort: 27017
+      nodePort: 30017

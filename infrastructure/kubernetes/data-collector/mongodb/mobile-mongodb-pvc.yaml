@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mobile-mongodb-pvc
+  namespace: mobile-de-data-collector
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 25Gi  # Amount of storage MongoDB needs
+  storageClassName: raid10-storage-class  # Storage class name

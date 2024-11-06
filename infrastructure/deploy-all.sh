@@ -1,2 +1,2 @@
 ./deploy-logging.sh
-./deploy.sh
+./deploy-data-collector.sh

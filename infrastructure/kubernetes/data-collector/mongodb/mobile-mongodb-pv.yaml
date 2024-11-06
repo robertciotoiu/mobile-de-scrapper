@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mobile-mongodb-pv
+spec:
+  capacity:
+    storage: 25Gi  # Size of your SSD, adjust accordingly
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain  # or Delete if you want to remove data when PVC is deleted
+  storageClassName: raid10-storage-class  # Storage class name
+  local:
+    path: /mnt/raid10/mobile-446-mongodb  # Path on rserver2 node
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - rserver2

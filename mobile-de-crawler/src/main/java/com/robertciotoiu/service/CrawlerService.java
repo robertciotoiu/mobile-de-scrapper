@@ -12,17 +12,21 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class CrawlerService {
     private static final Logger logger = LogManager.getLogger(CrawlerService.class);
-    private static final String URL = "https://suchen.mobile.de/fahrzeuge/sitemap-pls-carspecification-0.xml";
-    @Autowired
-    private RunningModeStrategyFactory runningModeStrategyFactory;
+
+    private static final String URL = "https://suchen.mobile.de/sitemap.xml";
+    private final RunningModeStrategyFactory runningModeStrategyFactory;
     @Value("${running-mode:new_only}")
     private String runningModeString;
     @Value("${scheduler.fixed-delay}")
     private String fixedDelayString;
 
+    @Autowired
+    public CrawlerService(RunningModeStrategyFactory runningModeStrategyFactory) {
+        this.runningModeStrategyFactory = runningModeStrategyFactory;
+    }
+
     @Scheduled(fixedDelayString = "${scheduler.fixed-delay}", timeUnit = TimeUnit.MINUTES)
     private void crawl() {
-
         logger.info("Start new crawling in {} running mode.", runningModeString);
         var runningMode = RunningMode.fromString(runningModeString);
         RunningModeStrategy runningModeStrategy = runningModeStrategyFactory.getRunningModeStrategy(runningMode);

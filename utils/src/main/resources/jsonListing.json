@@ -1,0 +1,187 @@
+{
+  "isEyeCatcher": false,
+  "numImages": 14,
+  "attr": {
+    "cn": "DE",
+    "z": "27356",
+    "loc": "Rotenburg",
+    "fr": "07\u002F2020",
+    "pw": "147 kW (200 hp)",
+    "ft": "Petrol",
+    "ml": "41,135 km",
+    "cc": "1,984 ccm",
+    "tr": "Automatic",
+    "gi": "New",
+    "ecol": "Black",
+    "door": "4\u002F5",
+    "sc": "5",
+    "c": "SmallCar",
+    "emc": "Euro6d-TEMP",
+    "pvo": "1"
+  },
+  "shortTitle": "Volkswagen Polo",
+  "subTitle": "GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC",
+  "isVideoEnabled": true,
+  "financePlans": [
+    {
+      "type": "AO",
+      "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=400685894&loanType=balloon&loanDuration=60&downPayment=4598",
+      "showInGallery": false,
+      "offer": {
+        "bankName": "Santander Carcredit",
+        "loanBroker": "Check24 GmbH",
+        "loanType": "BALLOON",
+        "downPayment": 4598,
+        "creditTerm": 60,
+        "yearlyMileage": 10000,
+        "creditAmount": 18392,
+        "interestRateNominal": 5.83,
+        "interestRateEffective": 5.99,
+        "monthlyInstallment": 248.5,
+        "finalInstallment": 7586.7,
+        "totalInterest": 3856.05,
+        "totalAmount": 22248.05,
+        "localized": {
+          "downPayment": "€4,598",
+          "downPaymentInPercent": "20%",
+          "creditTerm": "60",
+          "creditTermInYears": "5",
+          "yearlyMileage": "10,000",
+          "creditAmount": "€18,392",
+          "interestRateNominal": "5.83%",
+          "interestRateEffective": "5.99%",
+          "monthlyInstallment": "€249",
+          "finalInstallment": "€7,586.70",
+          "totalInterest": "€3,856.05",
+          "totalAmount": "€22,248.05",
+          "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+          "minMonthlyInstallment": "€249",
+          "minInterestRateEffective": "5.99%",
+          "minInterestRateNominal": "5.83%",
+          "maxMonthlyInstallment": "€249",
+          "maxInterestRateEffective": "5.99%",
+          "maxInterestRateNominal": "5.83%"
+        },
+        "minMonthlyInstallment": 248.5,
+        "minInterestRateEffective": 5.99,
+        "minInterestRateNominal": 5.83,
+        "maxMonthlyInstallment": 248.5,
+        "maxInterestRateEffective": 5.99,
+        "maxInterestRateNominal": 5.83
+      },
+      "budgetStatus": "FALLBACK",
+      "fallback": true,
+      "downPayment": 0,
+      "loanDuration": 60,
+      "localized": {
+        "downPayment": "€0"
+      }
+    }
+  ],
+  "sellerId": 455835,
+  "priceRating": {
+    "rating": "REASONABLE_PRICE",
+    "ratingLabel": "Fair price",
+    "thresholdLabels": [
+      "€17,000",
+      "€20,200",
+      "€21,500",
+      "€24,200",
+      "€27,600",
+      "€28,800"
+    ],
+    "vehiclePriceOffset": 55
+  },
+  "segment": "Car",
+  "title": "Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC",
+  "vc": "Car",
+  "category": "Small Car",
+  "id": 400685894,
+  "kba": {
+    "hsn": "0603",
+    "tsn": "CDU"
+  },
+  "customDimensions": {
+    "10": "gold"
+  },
+  "previewThumbnails": [
+    {
+      "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7f\u002F7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-160.jpg",
+      "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7f\u002F7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7f\u002F7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7f\u002F7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7f\u002F7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-1024.jpg 1024w",
+      "alt": "Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC - Volkswagen Polo: GTI dsg"
+    },
+    {
+      "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcf\u002Fcf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-160.jpg",
+      "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcf\u002Fcf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcf\u002Fcf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcf\u002Fcf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcf\u002Fcf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-1024.jpg 1024w",
+      "alt": "Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC - Volkswagen Polo: GTI dsg"
+    },
+    {
+      "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F14\u002F141636eb-5efe-440d-bff9-47579986e168?rule=mo-160.jpg",
+      "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F14\u002F141636eb-5efe-440d-bff9-47579986e168?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F14\u002F141636eb-5efe-440d-bff9-47579986e168?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F14\u002F141636eb-5efe-440d-bff9-47579986e168?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F14\u002F141636eb-5efe-440d-bff9-47579986e168?rule=mo-1024.jpg 1024w",
+      "alt": "Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC - Volkswagen Polo: GTI dsg"
+    }
+  ],
+  "attributes": [
+    [
+      {
+        "value": "Accident-free",
+        "bold": true
+      },
+      {
+        "value": "FR 07\u002F2020"
+      },
+      {
+        "value": "41,135 km"
+      },
+      {
+        "value": "147 kW (200 hp)"
+      },
+      {
+        "value": "Petrol"
+      }
+    ],
+    []
+  ],
+  "availability": null,
+  "contactInfo": {
+    "typeLocalized": "Dealer",
+    "name": "Autohaus Schmidt + Koch GmbH",
+    "location": "27356 Rotenburg",
+    "rating": {
+      "score": 4.7,
+      "count": 30
+    },
+    "logo": {
+      "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F8c\u002F8c59d955-063e-4523-bf38-5a7682d48643?rule=mo-80.jpg",
+      "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F8c\u002F8c59d955-063e-4523-bf38-5a7682d48643?rule=mo-80.jpg 80w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F8c\u002F8c59d955-063e-4523-bf38-5a7682d48643?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F8c\u002F8c59d955-063e-4523-bf38-5a7682d48643?rule=mo-240.jpg 240w",
+      "alt": "Autohaus Schmidt + Koch GmbH"
+    },
+    "hasContactPhones": true,
+    "contactPhone": "+49 (0)4261 980930",
+    "country": "DE",
+    "sellerType": "DEALER"
+  },
+  "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F400685894?ref=srpContact",
+  "isFinancingAvailable": true,
+  "isNullLeasingBto": false,
+  "leasingRate": null,
+  "make": "Volkswagen",
+  "model": "Polo",
+  "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F400685894?lastSearch=lang%3Den",
+  "previewImage": {
+    "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ff9\u002Ff919fb88-0dd1-43e7-8da2-07ff3eca92f1?rule=mo-160.jpg",
+    "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ff9\u002Ff919fb88-0dd1-43e7-8da2-07ff3eca92f1?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ff9\u002Ff919fb88-0dd1-43e7-8da2-07ff3eca92f1?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ff9\u002Ff919fb88-0dd1-43e7-8da2-07ff3eca92f1?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ff9\u002Ff919fb88-0dd1-43e7-8da2-07ff3eca92f1?rule=mo-1024.jpg 1024w",
+    "alt": "Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC - Volkswagen Polo: GTI dsg"
+  },
+  "price": {
+    "gross": "€22,990",
+    "grossAmount": 22990,
+    "grossCurrency": "EUR",
+    "net": "€19,319",
+    "netAmount": 19319.33,
+    "vat": "19% VAT"
+  },
+  "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=400685894&action=topOfPage&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+  "supportedLeasingType": null,
+  "type": "topAd"
+}

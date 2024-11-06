@@ -27,10 +27,14 @@ import java.util.List;
  */
 @Component
 public class CarCategoryBaseUrlExtractor {
-    @Autowired
-    private JsoupWrapper jsoupWrapper;
-    private static final String EN_LANGUAGE_PATH = "?lang=en";
     private static final Logger logger = LogManager.getLogger(CarCategoryBaseUrlExtractor.class);
+    private static final String EN_LANGUAGE_PATH = "?lang=en";
+    private final JsoupWrapper jsoupWrapper;
+
+    @Autowired
+    public CarCategoryBaseUrlExtractor(JsoupWrapper jsoupWrapper) {
+        this.jsoupWrapper = jsoupWrapper;
+    }
 
     public List<String> extract(String url) throws IOException {
         Document doc = jsoupWrapper.getHtml(url);

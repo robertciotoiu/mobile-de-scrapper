@@ -35,7 +35,7 @@ You will need to have the following software installed on your machine:
 git clone https://github.com/robertciotoiu/mobile-de-scraper.git
 ```
 
-2. Set a valid [localPath](infrastructure/kubernetes/mobile-de-mongodb-configmap.yaml) to point to a location on your disk where the MongoDB will persist
+2. Set a valid [localPath](infrastructure/kubernetes/data-collector/mobile-de-mongodb-configmap.yaml) to point to a location on your disk where the MongoDB will persist
 
 
 3. Navigate to the project directory
@@ -47,7 +47,7 @@ cd mobile-de-car-data-collector/infrastructure
 4. Build docker & push images and deploy all pods to a K8s namespace
 
 ```shell
-./deploy.sh
+./deploy-data-collector.sh
 ```
 
 Docker images will be built and pushed to the local docker image repository. Then it will create a namespace named "rc"(can be changed) and the K8s resources. 
