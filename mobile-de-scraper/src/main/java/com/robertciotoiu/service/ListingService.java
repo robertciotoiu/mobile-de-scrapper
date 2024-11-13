@@ -8,11 +8,14 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ListingService {
-    @Autowired
-    ListingsExtractor listingsExtractor;
+    final ListingsExtractor listingsExtractor;
+    final ListingPersistor listingPersistor;
 
     @Autowired
-    ListingPersistor listingPersistor;
+    public ListingService(ListingsExtractor listingsExtractor, ListingPersistor listingPersistor) {
+        this.listingsExtractor = listingsExtractor;
+        this.listingPersistor = listingPersistor;
+    }
 
     public void scrapeAndIngestListings(Document carSpecPage, String carSpecPageUrl) {
         var listings = listingsExtractor.extract(carSpecPage, carSpecPageUrl);

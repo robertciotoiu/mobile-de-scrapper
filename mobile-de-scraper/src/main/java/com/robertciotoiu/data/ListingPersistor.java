@@ -1,5 +1,6 @@
 package com.robertciotoiu.data;
 
+import com.robertciotoiu.data.model.FlatListing;
 import com.robertciotoiu.data.model.Listing;
 import com.robertciotoiu.data.repository.ListingRepository;
 import org.apache.logging.log4j.LogManager;
@@ -13,14 +14,18 @@ import java.util.List;
 public class ListingPersistor {
     private static final Logger logger = LogManager.getLogger(ListingPersistor.class);
 
-    @Autowired
-    private ListingRepository repository;
+    private final ListingRepository repository;
 
-    public void persist(List<Listing> listings) {
+    @Autowired
+    public ListingPersistor(ListingRepository repository) {
+        this.repository = repository;
+    }
+
+    public void persist(List<FlatListing> listings) {
         int totalListings = listings.size();
         var savedListings = repository.saveAll(listings);
 
-        List<Listing> failedListings = listings.stream()
+        var failedListings = listings.stream()
                 .filter(listing -> !savedListings.contains(listing))
                 .toList();
         int totalFailedListings = failedListings.size();

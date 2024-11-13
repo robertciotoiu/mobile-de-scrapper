@@ -17,8 +17,12 @@ import java.io.IOException;
 @Component
 public class RabbitMQConsumer {
     private static final Logger logger = LogManager.getLogger(RabbitMQConsumer.class);
+    final ScraperService scraperService;
+
     @Autowired
-    ScraperService scraperService;
+    public RabbitMQConsumer(ScraperService scraperService) {
+        this.scraperService = scraperService;
+    }
 
     @RabbitListener(queues = "${rabbitmq.queue}", concurrency = "1")
     public void handleMessage(String message, @Header(AmqpHeaders.DELIVERY_TAG) long deliveryTag, Channel channel) throws IOException {

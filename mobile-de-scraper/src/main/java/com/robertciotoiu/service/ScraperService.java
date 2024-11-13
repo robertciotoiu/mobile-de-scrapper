@@ -14,16 +14,20 @@ import java.io.IOException;
 @Service
 public class ScraperService {
     private static final Logger logger = LogManager.getLogger(ScraperService.class);
+    final JsoupWrapper jsoupWrapper;
+    final ListingService listingService;
+    final CarCategoryMetadataService carCategoryMetadataService;
+    final CategoryCooldownHandler categoryCooldownHandler;
+    final CarCategoryParsableUrlExtractor carCategoryParsableUrlExtractor;
+
     @Autowired
-    JsoupWrapper jsoupWrapper;
-    @Autowired
-    ListingService listingService;
-    @Autowired
-    CarCategoryMetadataService carCategoryMetadataService;
-    @Autowired
-    CategoryCooldownHandler categoryCooldownHandler;
-    @Autowired
-    CarCategoryParsableUrlExtractor carCategoryParsableUrlExtractor;
+    public ScraperService(JsoupWrapper jsoupWrapper, ListingService listingService, CarCategoryMetadataService carCategoryMetadataService, CategoryCooldownHandler categoryCooldownHandler, CarCategoryParsableUrlExtractor carCategoryParsableUrlExtractor) {
+        this.jsoupWrapper = jsoupWrapper;
+        this.listingService = listingService;
+        this.carCategoryMetadataService = carCategoryMetadataService;
+        this.categoryCooldownHandler = categoryCooldownHandler;
+        this.carCategoryParsableUrlExtractor = carCategoryParsableUrlExtractor;
+    }
 
 
     public void scrape(String carSpecPageUrl) {
@@ -43,7 +47,7 @@ public class ScraperService {
         carCategoryMetadataService.scrapeAndIngestCarCategoryMetadata(carSpecPage, carSpecPageUrl);
     }
 
-    private void setCooldown(Document carSpecPage,String carSpecPageUrl) {
+    private void setCooldown(Document carSpecPage, String carSpecPageUrl) {
         var carCategoryUrls = carCategoryParsableUrlExtractor.extractParsableUrls(carSpecPageUrl, carSpecPage);
         categoryCooldownHandler.calculateAndSetCooldown(carCategoryUrls);
     }

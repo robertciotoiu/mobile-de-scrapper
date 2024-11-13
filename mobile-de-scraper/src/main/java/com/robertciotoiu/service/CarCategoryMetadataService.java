@@ -8,10 +8,14 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CarCategoryMetadataService {
+    final CarCategoryMetadataRepository repository;
+    final CarCategoryMetadataExtractor extractor;
+
     @Autowired
-    CarCategoryMetadataRepository repository;
-    @Autowired
-    CarCategoryMetadataExtractor extractor;
+    public CarCategoryMetadataService(CarCategoryMetadataRepository repository, CarCategoryMetadataExtractor extractor) {
+        this.repository = repository;
+        this.extractor = extractor;
+    }
 
     public void scrapeAndIngestCarCategoryMetadata(Document carSpecPage, String carSpecPageUrl) {
         if (isFirstPage(carSpecPageUrl)) {

@@ -1,5 +1,6 @@
 package com.robertciotoiu.service.extractor.listing;
 
+import com.robertciotoiu.data.model.FlatListing;
 import com.robertciotoiu.data.model.Listing;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -11,31 +12,20 @@ import java.time.ZoneOffset;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.robertciotoiu.service.extractor.listing.ListingXPath.LISTING_CLASS_NAME_XPATH;
+
 @Component
 public class ListingsExtractor {
-    private static final String LISTING_CLASS_NAME_XPATH = "span[data-testid^=result-listing-]";
-    private static final String TOP_LISTING_CLASS_NAME = "//div[contains(@class,'cBox-body--topResultitem')]";
-    private static final String AD_LISTING_CLASS_NAME = "//div[contains(@class,'cBox-body--eyeCatcher')]";
+    final ListingElementExtractor listingElementExtractor;
+
     @Autowired
-    ListingElementExtractor listingElementExtractor;
-
-    public List<Listing> extract(Document carSpecPage, String carSpecPageUrl) {
-        var listings = new ArrayList<Listing>();
-
-        var normalListings = extractListings(carSpecPage, carSpecPageUrl, LISTING_CLASS_NAME_XPATH);
-        var topListings = extractListings(carSpecPage, carSpecPageUrl, TOP_LISTING_CLASS_NAME);
-        var adListings = extractListings(carSpecPage, carSpecPageUrl, AD_LISTING_CLASS_NAME);
-
-        listings.addAll(normalListings);
-        listings.addAll(topListings);
-        listings.addAll(adListings);
-
-        return listings;
+    public ListingsExtractor(ListingElementExtractor listingElementExtractor) {
+        this.listingElementExtractor = listingElementExtractor;
     }
 
-    private List<Listing> extractListings(Document carSpecPage, String carSpecPageUrl, String xpath) {
-        var listings = new ArrayList<Listing>();
-        var listingsElements = carSpecPage.select(xpath);
+    public List<FlatListing> extract(Document carSpecPage, String carSpecPageUrl) {
+        var listings = new ArrayList<FlatListing>();
+        var listingsElements = carSpecPage.select(LISTING_CLASS_NAME_XPATH);
         var carCategory = extractCarCategory(carSpecPageUrl);
 
         for (var listingElement : listingsElements) {
@@ -48,13 +38,13 @@ public class ListingsExtractor {
         return listings;
     }
 
+    private FlatListing extractListing(Element listingElement) {
+        return listingElementExtractor.extract(listingElement);
+    }
+
     private String extractCarCategory(String carSpecPageUrl) {
         var beginIndex = carSpecPageUrl.lastIndexOf("/") + 1;
         var endIndex = carSpecPageUrl.indexOf(".html?");
         return carSpecPageUrl.substring(beginIndex, endIndex);
-    }
-
-    private Listing extractListing(Element listingElement) {
-        return listingElementExtractor.extract(listingElement);
     }
 }

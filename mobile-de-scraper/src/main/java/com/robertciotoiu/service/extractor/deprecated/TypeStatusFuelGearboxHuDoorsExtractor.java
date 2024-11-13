@@ -1,4 +1,4 @@
-package com.robertciotoiu.service.extractor.listing;
+package com.robertciotoiu.service.extractor.deprecated;
 
 import com.robertciotoiu.data.model.FuelGearboxHuDoors;
 import com.robertciotoiu.data.model.TypeFuelGearboxHuDoors;

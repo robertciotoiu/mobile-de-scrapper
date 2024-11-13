@@ -20,12 +20,10 @@ public class CarCategoryMetadataExtractor {
 
     public CarCategoryMetadata extract(Document carSpecPageDoc, String carCategoryUrl) {
         var carCategoryMetadataBuilder = CarCategoryMetadata.builder();
-        return carCategoryMetadataBuilder
-                .url(carCategoryUrl)
+        return carCategoryMetadataBuilder.url(carCategoryUrl)
                 .totalListings(extractTotalListings(carSpecPageDoc))
                 .totalPages(extractTotalPages(carSpecPageDoc))
-                .scrapedTime(LocalDateTime.now(ZoneOffset.UTC))
-                .build();
+                .scrapedTime(LocalDateTime.now(ZoneOffset.UTC)).build();
     }
 
     private Integer extractTotalListings(Document carSpecPageDoc) {

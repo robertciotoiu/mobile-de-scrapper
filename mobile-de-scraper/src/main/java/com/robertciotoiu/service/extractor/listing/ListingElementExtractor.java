@@ -2,6 +2,7 @@ package com.robertciotoiu.service.extractor.listing;
 
 import com.robertciotoiu.data.model.*;
 import com.robertciotoiu.exception.ListingIdNotFoundError;
+import com.robertciotoiu.service.extractor.deprecated.TypeStatusFuelGearboxHuDoorsExtractor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.nodes.Element;
@@ -23,8 +24,12 @@ import static com.robertciotoiu.service.extractor.listing.ListingXPath.*;
 public class ListingElementExtractor {
     private static final Logger logger = LogManager.getLogger(ListingElementExtractor.class);
 
+    final TypeStatusFuelGearboxHuDoorsExtractor typeStatusFuelGearboxHuDoorsExtractor;
+
     @Autowired
-    TypeStatusFuelGearboxHuDoorsExtractor typeStatusFuelGearboxHuDoorsExtractor;
+    public ListingElementExtractor(TypeStatusFuelGearboxHuDoorsExtractor typeStatusFuelGearboxHuDoorsExtractor) {
+        this.typeStatusFuelGearboxHuDoorsExtractor = typeStatusFuelGearboxHuDoorsExtractor;
+    }
 
     /**
      * <p>Tries to extract from a listing element as many Listing fields as possibles.<p>
@@ -34,8 +39,8 @@ public class ListingElementExtractor {
      * @param listingElement Jsoup Element containing only the listing html element
      * @return Listing object.
      */
-    public Listing extract(Element listingElement) {
-        var listingBuilder = Listing.builder();
+    public FlatListing extract(Element listingElement) {
+        var listingBuilder = FlatListing.builder();
 
         try {
             String listingId = extractAndSetListingId(listingElement, listingBuilder);
@@ -47,7 +52,7 @@ public class ListingElementExtractor {
         return listingBuilder.build();
     }
 
-    private String extractAndSetListingId(Element listingElement, Listing.ListingBuilder listingBuilder) {
+    private String extractAndSetListingId(Element listingElement, FlatListing.FlatListingBuilder listingBuilder) {
         var listingId = listingElement.selectXpath(ListingXPath.LISTING_ID_XPATH).attr("data-listing-id");
         if (listingId.equals("")) {
             logger.error("Failed to extract listingId! Listing element: {}", listingElement);
@@ -58,7 +63,7 @@ public class ListingElementExtractor {
         return listingId;
     }
 
-    private void extractAndSetListingInformation(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetListingInformation(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         extractAndSetTitle(listingElement, listingId, listingBuilder);
         extractAndSetIsNew(listingElement, listingId, listingBuilder);
         extractAndSetUrl(listingElement, listingId, listingBuilder);
@@ -74,7 +79,7 @@ public class ListingElementExtractor {
 
     }
 
-    private void extractAndSetTitle(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetTitle(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var title = listingElement.selectXpath(TITLE_XPATH).text();
             listingBuilder.title(title);
@@ -83,7 +88,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetIsNew(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetIsNew(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var isNewText = listingElement.selectXpath(IS_NEW_XPATH).text();
             listingBuilder.isNew(isNewText.equals("New"));
@@ -92,7 +97,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetUrl(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetUrl(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var url = listingElement.selectXpath(URL_XPATH).attr("href");
             listingBuilder.url(url);
@@ -101,7 +106,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetImgUrl(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetImgUrl(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var imgUrl = listingElement.selectXpath(IMG_URL_XPATH).attr("data-src");
             listingBuilder.imgUrl(imgUrl);
@@ -110,7 +115,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetIsElectric(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetIsElectric(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var isElectric = listingElement.selectXpath(IS_ELECTRIC_XPATH).attr("data-has-electric-engine");
             listingBuilder.isElectric(isElectric.equals("true"));
@@ -119,7 +124,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetPostedDate(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetPostedDate(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var postedDate = listingElement.selectXpath(POSTED_DATE_XPATH).text();
             listingBuilder.postedDate(getPostedDateTime(postedDate));
@@ -128,7 +133,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetPostedDate2ndOption(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetPostedDate2ndOption(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var postedDate = listingElement.selectXpath(POSTED_DATE_2ND_XPATH).text();
             var extractedDate = extractDate(postedDate);
@@ -139,7 +144,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetPostedDateGermanPage(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder){
+    private void extractAndSetPostedDateGermanPage(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var postedDate = listingElement.selectXpath(POSTED_DATE_2ND_XPATH).text();
             listingBuilder.postedDate(extractGermanPageDateTime(postedDate));
@@ -154,7 +159,7 @@ public class ListingElementExtractor {
         return LocalDateTime.parse(dateTimeString, formatter);
     }
 
-    private void extractAndSetPostedDateFromAds(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetPostedDateFromAds(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var postedDate = listingElement.selectXpath(POSTED_DATE_ADS_XPATH).text();
             var extractedDate = extractDate(postedDate);
@@ -165,7 +170,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetRegMilPow(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetRegMilPow(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var regMilPow = listingElement.selectXpath(REG_MIL_POW_XPATH).text();
             listingBuilder.regMilPow(extractRegMilPow(regMilPow, listingId));
@@ -174,7 +179,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetTypeStatusFuelGearboxHuDoors(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetTypeStatusFuelGearboxHuDoors(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var typeStatusFuelGearboxHuDoors = listingElement.selectXpath(TYPE_FUEL_GEARBOX_HU_DOORS_XPATH);
             listingBuilder.typeStatusFuelGearboxHuDoors(typeStatusFuelGearboxHuDoorsExtractor.extractTypeStatusFuelGearboxHuDoors(typeStatusFuelGearboxHuDoors, listingId));
@@ -183,7 +188,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetConsumptionEmissionsData(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetConsumptionEmissionsData(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var consumptionEmissionsElements = listingElement.selectXpath(CONSUMPTION_EMISSIONS_XPATH);
             listingBuilder.consumptionEmissions(extractConsumptionEmissions(consumptionEmissionsElements));
@@ -203,7 +208,7 @@ public class ListingElementExtractor {
         return ConsumptionEmissions.builder().consumption(consumption).emissions(emissions).build();
     }
 
-    private void extractAndSetConsumptionEmissionsData2ndOption(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetConsumptionEmissionsData2ndOption(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var consumptionEmissionsString = listingElement.selectXpath(CONSUMPTION_EMISSIONS_XPATH).text();
             var consumptionEmissions = extractConsumptionEmissions2ndOption(consumptionEmissionsString);
@@ -244,7 +249,7 @@ public class ListingElementExtractor {
         return consumptionEmissionsBuilder.build();
     }
 
-    private void extractAndSetVehicleExtras(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetVehicleExtras(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var vehicleExtras1 = listingElement.selectXpath(VEHICLE_EXTRAS_1_XPATH);
             var vehicleExtras2 = listingElement.selectXpath(VEHICLE_EXTRAS_2_XPATH);
@@ -255,7 +260,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetSeller(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetSeller(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         try {
             var seller = listingElement.selectXpath(SELLER_XPATH);
             listingBuilder.seller(extractAndSetSeller(seller, listingId));
@@ -264,7 +269,7 @@ public class ListingElementExtractor {
         }
     }
 
-    private void extractAndSetPrice(Element listingElement, String listingId, Listing.ListingBuilder listingBuilder) {
+    private void extractAndSetPrice(Element listingElement, String listingId, FlatListing.FlatListingBuilder listingBuilder) {
         var price = listingElement.selectXpath(PRICE_XPATH);
         var priceRating = listingElement.selectXpath(PRICE_RATING_XPATH);
         var priceDataBuilder = PriceData.builder();
@@ -315,8 +320,7 @@ public class ListingElementExtractor {
             return Seller.builder().build();
         }
 
-        if (sellerElement == null)
-            return Seller.builder().build();
+        if (sellerElement == null) return Seller.builder().build();
 
         Seller seller;
         if (sellerElement.childNodeSize() == 1) {
@@ -411,11 +415,7 @@ public class ListingElementExtractor {
         var dealerRatingElements = sellerElement.selectXpath(dealerRatingParentXpath);
         if (!dealerRatingElements.isEmpty()) {
             try {
-                var dealerRating = Double.parseDouble(
-                        dealerRatingElements
-                                .first()
-                                .selectXpath(dealerRatingXpath)
-                                .attr("data-rating"));
+                var dealerRating = Double.parseDouble(dealerRatingElements.first().selectXpath(dealerRatingXpath).attr("data-rating"));
                 dealerBuilder.dealerRating(dealerRating);
             } catch (Exception e) {
                 logger.warn("Failed to extract dealerRating for listing: {}", listingId);
@@ -435,8 +435,7 @@ public class ListingElementExtractor {
     }
 
     private List<String> extractAndSetVehicleExtras(Elements vehicleExtras1, Elements vehicleExtras2, Elements vehicleExtras3) {
-        if (vehicleExtras1.isEmpty())
-            return Collections.emptyList();
+        if (vehicleExtras1.isEmpty()) return Collections.emptyList();
 
         var vehicleExtras = new ArrayList<String>();
 
@@ -482,9 +481,7 @@ public class ListingElementExtractor {
 
     private Integer getHp(String regMilPow, String listingId) {
         try {
-            return Integer.parseInt(regMilPow
-                    .substring(regMilPow.indexOf("(") + 1, regMilPow.indexOf(" ", regMilPow.indexOf("(")))
-                    .trim());
+            return Integer.parseInt(regMilPow.substring(regMilPow.indexOf("(") + 1, regMilPow.indexOf(" ", regMilPow.indexOf("("))).trim());
         } catch (Exception e) {
             logger.warn("Failed to extract hp for listing: {}", listingId);
             return null;
@@ -493,9 +490,7 @@ public class ListingElementExtractor {
 
     private Integer getKw(String regMilPow, String listingId) {
         try {
-            return Integer.parseInt(regMilPow
-                    .substring(0, regMilPow.indexOf(" ", 1))
-                    .trim());
+            return Integer.parseInt(regMilPow.substring(0, regMilPow.indexOf(" ", 1)).trim());
         } catch (Exception e) {
             logger.warn("Failed to extract kw for listing: {}", listingId);
             return null;
@@ -504,10 +499,7 @@ public class ListingElementExtractor {
 
     private Integer getMileage(String regMilPow, String listingId) {
         try {
-            String mileageString = regMilPow
-                    .substring(0, regMilPow.lastIndexOf(" "))
-                    .replace(".", "")
-                    .trim();
+            String mileageString = regMilPow.substring(0, regMilPow.lastIndexOf(" ")).replace(".", "").trim();
             return Integer.parseInt(mileageString);
         } catch (Exception e) {
             logger.warn("Failed to extract mileage for listing: {}", listingId);
