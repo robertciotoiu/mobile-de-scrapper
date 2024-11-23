@@ -1,8 +1,13 @@
 package com.robertciotoiu.listing;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -10,12 +15,21 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 public class ListingJsonExtractorTest {
 
-    private final ListingJsonExtractor extractor = new ListingJsonExtractor();
+    private final ListingJsonExtractor extractor;
+    private String listingsJson;
 
-    private final String listingsJson = "{...}"; // Replace with the provided JSON data
+    @Autowired
+    public ListingJsonExtractorTest(ListingJsonExtractor extractor) {
+        this.extractor = extractor;
+    }
+
+    @BeforeEach
+    void setUp() throws IOException {
+        listingsJson = new String(Files.readAllBytes(Paths.get("src/test/resources/initialStateSample.json")));
+    }
 
     @Test
-    public void testExtractListings() {
+    public void testExtractListings() throws IOException {
         List<ListingV2> listings = extractor.extract(listingsJson);
         assertNotNull(listings);
         assertFalse(listings.isEmpty());
@@ -26,34 +40,52 @@ public class ListingJsonExtractorTest {
         List<ListingV2> listings = extractor.extract(listingsJson);
         ListingV2 firstListing = listings.get(0);
 
-        assertEquals("408406884", firstListing.getId());
+        assertEquals("400685894", firstListing.getId());
         assertEquals("Volkswagen", firstListing.getMake());
         assertEquals("Polo", firstListing.getModel());
-        assertEquals("Car", firstListing.getSegment());
-        assertEquals("€19,900", firstListing.getGrossCurrency());
-        assertEquals(19900, firstListing.getGrossAmount());
         assertEquals("DE", firstListing.getCountryCode());
-        assertEquals("59757 Arnsberg", firstListing.getSellerLocation());
-        assertEquals("Ze Autohandel GmbH", firstListing.getDealerName());
-        assertEquals(4.8, firstListing.getDealerRatingScore());
-        assertEquals(28, firstListing.getDealerRatingCount());
-    }
-
-    @Test
-    public void testExtractSecondListing() {
-        List<ListingV2> listings = extractor.extract(listingsJson);
-        ListingV2 secondListing = listings.get(1);
-
-        assertEquals("409290910", secondListing.getId());
-        assertEquals("Volkswagen", secondListing.getMake());
-        assertEquals("Polo", secondListing.getModel());
-        assertEquals("Car", secondListing.getSegment());
-        assertEquals("€19,499", secondListing.getGrossCurrency());
-        assertEquals(19499, secondListing.getGrossAmount());
-        assertEquals("DE", secondListing.getCountryCode());
-        assertEquals("46562 Voerde", secondListing.getSellerLocation());
-        assertEquals("CarDeal 24", secondListing.getDealerName());
-        assertEquals(4.6, secondListing.getDealerRatingScore());
-        assertEquals(20, secondListing.getDealerRatingCount());
+        assertEquals("27356", firstListing.getZipCode());
+        assertEquals("Rotenburg", firstListing.getCityName());
+        assertEquals("07/2020", firstListing.getFirstRegister());
+        assertEquals("147 kW (200 hp)", firstListing.getPower());
+        assertEquals("Petrol", firstListing.getFuelType());
+        assertEquals("41,135 km", firstListing.getMileage());
+        assertEquals("1,984 ccm", firstListing.getCubicCapacity());
+        assertEquals("Automatic", firstListing.getTransmissionType());
+        assertEquals("New", firstListing.getAttrGi());
+        assertEquals("Black", firstListing.getColor());
+        assertEquals("4/5", firstListing.getDoorCount());
+        assertEquals("5", firstListing.getSeatCount());
+        assertEquals("SmallCar", firstListing.getCarType());
+        assertEquals("Euro6d-TEMP", firstListing.getEmissionCategory());
+        assertEquals("1", firstListing.getAttrPvo());
+        assertEquals(22990, firstListing.getGrossAmount());
+        assertEquals(19319, firstListing.getNetAmount());
+        assertEquals("EUR", firstListing.getGrossCurrency());
+        assertEquals("19% VAT", firstListing.getVat());
+        assertEquals("REASONABLE_PRICE", firstListing.getPriceRating());
+        assertEquals("Fair price", firstListing.getPriceRatingLabel());
+        assertEquals("", firstListing.getPriceNoRatingReason());
+        assertEquals(List.of("€17,000", "€20,200", "€21,500", "€24,200", "€27,600", "€28,800"), firstListing.getPriceRatingLabels());
+        assertEquals("Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC", firstListing.getTitle());
+        assertEquals("GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC", firstListing.getSubTitle());
+        assertEquals("Volkswagen Polo", firstListing.getShortTitle());
+        assertEquals("Car", firstListing.getSegment());
+        assertEquals("topAd", firstListing.getListingType());
+        assertEquals(List.of(
+                "https://img.classistatic.de/api/v1/mo-prod/images/7f/7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-160.jpg",
+                "https://img.classistatic.de/api/v1/mo-prod/images/cf/cf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-160.jpg",
+                "https://img.classistatic.de/api/v1/mo-prod/images/14/141636eb-5efe-440d-bff9-47579986e168?rule=mo-160.jpg"
+        ), firstListing.getThumbnailsUrl());
+        assertEquals("Small Car", firstListing.getCategory());
+        assertEquals(455835, firstListing.getSellerId());
+        assertEquals("Dealer", firstListing.getTypeLocalized());
+        assertEquals("Autohaus Schmidt + Koch GmbH", firstListing.getSellerName());
+        assertEquals(4.7, firstListing.getSellerRatingScore());
+        assertEquals(30, firstListing.getSellerRatingCount());
+        assertEquals("27356 Rotenburg", firstListing.getSellerLocation());
+        assertEquals("DEALER", firstListing.getSellerType());
+        assertEquals("DE", firstListing.getSellerCountry());
+        assertNotNull(firstListing.getScrapeTime());
     }
 }

@@ -1,11 +1,13 @@
 package com.robertciotoiu.listing;
 
+import com.robertciotoiu.util.HtmlUtils;
 import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @Builder
@@ -35,23 +37,65 @@ public class ListingV2 {
     private String emissionCategory;
     private String attrPvo;
     private long grossAmount;
-    private long newAmount;
+    private long netAmount;
     private String grossCurrency;
     private String vat;
+    private String priceRating;
+    private String priceRatingLabel;
+    private List<String> priceRatingLabels;
+    private String priceNoRatingReason;
     private String title;
     private String subTitle;
     private String shortTitle;
     private String segment;
     private String listingType;
-    private String thumbnailsUrl;
+    private List<String> thumbnailsUrl;
     private String category;
     private long sellerId;
     private String typeLocalized;
-    private String dealerName;
-    private double dealerRatingScore;
-    private int dealerRatingCount;
+    private String sellerName;
+    private double sellerRatingScore;
+    private int sellerRatingCount;
     private String sellerLocation;
     private String sellerType;
-    private String country;
+    private String sellerCountry;
     private LocalDateTime scrapeTime;
+
+    public void replaceSpecialBlankLinesFields() {
+        this.make = HtmlUtils.replaceSpecialBlankLines(this.make);
+        this.model = HtmlUtils.replaceSpecialBlankLines(this.model);
+        this.attributes = HtmlUtils.replaceSpecialBlankLines(this.attributes);
+        this.countryCode = HtmlUtils.replaceSpecialBlankLines(this.countryCode);
+        this.zipCode = HtmlUtils.replaceSpecialBlankLines(this.zipCode);
+        this.cityName = HtmlUtils.replaceSpecialBlankLines(this.cityName);
+        this.firstRegister = HtmlUtils.replaceSpecialBlankLines(this.firstRegister);
+        this.power = HtmlUtils.replaceSpecialBlankLines(this.power);
+        this.fuelType = HtmlUtils.replaceSpecialBlankLines(this.fuelType);
+        this.mileage = HtmlUtils.replaceSpecialBlankLines(this.mileage);
+        this.cubicCapacity = HtmlUtils.replaceSpecialBlankLines(this.cubicCapacity);
+        this.transmissionType = HtmlUtils.replaceSpecialBlankLines(this.transmissionType);
+        this.attrGi = HtmlUtils.replaceSpecialBlankLines(this.attrGi);
+        this.color = HtmlUtils.replaceSpecialBlankLines(this.color);
+        this.doorCount = HtmlUtils.replaceSpecialBlankLines(this.doorCount);
+        this.seatCount = HtmlUtils.replaceSpecialBlankLines(this.seatCount);
+        this.carType = HtmlUtils.replaceSpecialBlankLines(this.carType);
+        this.emissionCategory = HtmlUtils.replaceSpecialBlankLines(this.emissionCategory);
+        this.attrPvo = HtmlUtils.replaceSpecialBlankLines(this.attrPvo);
+        this.grossCurrency = HtmlUtils.replaceSpecialBlankLines(this.grossCurrency);
+        this.vat = HtmlUtils.replaceSpecialBlankLines(this.vat);
+        this.priceRating = HtmlUtils.replaceSpecialBlankLines(this.priceRating);
+        this.priceRatingLabel = HtmlUtils.replaceSpecialBlankLines(this.priceRatingLabel);
+        this.priceNoRatingReason = HtmlUtils.replaceSpecialBlankLines(this.priceNoRatingReason);
+        this.title = HtmlUtils.replaceSpecialBlankLines(this.title);
+        this.subTitle = HtmlUtils.replaceSpecialBlankLines(this.subTitle);
+        this.shortTitle = HtmlUtils.replaceSpecialBlankLines(this.shortTitle);
+        this.segment = HtmlUtils.replaceSpecialBlankLines(this.segment);
+        this.listingType = HtmlUtils.replaceSpecialBlankLines(this.listingType);
+        this.category = HtmlUtils.replaceSpecialBlankLines(this.category);
+        this.typeLocalized = HtmlUtils.replaceSpecialBlankLines(this.typeLocalized);
+        this.sellerName = HtmlUtils.replaceSpecialBlankLines(this.sellerName);
+        this.sellerLocation = HtmlUtils.replaceSpecialBlankLines(this.sellerLocation);
+        this.sellerType = HtmlUtils.replaceSpecialBlankLines(this.sellerType);
+        this.sellerCountry = HtmlUtils.replaceSpecialBlankLines(this.sellerCountry);
+    }
 }

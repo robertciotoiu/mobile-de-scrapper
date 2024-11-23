@@ -1,35 +1,40 @@
 package com.robertciotoiu.carcategory;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class CarCategoryMetadataExtractorTest {
+
+    private final CarCategoryMetadataExtractor extractor;
+    private String jsonContent;
+
     @Autowired
-    private CarCategoryMetadataExtractor carCategoryMetadataExtractor;
+    public CarCategoryMetadataExtractorTest(CarCategoryMetadataExtractor extractor) {
+        this.extractor = extractor;
+    }
+
+    @BeforeEach
+    void setUp() throws IOException {
+        jsonContent = new String(Files.readAllBytes(Paths.get("src/test/resources/initialStateSample.json")));
+    }
 
     @Test
-    void testExtract() throws IOException {
-        //TODO: reimplement this test
-/*        String carSpecPageUrl = "http://www.google.com";
-        File in = new File("src/test/resources/listings-with-multiple-ads.html");
-        Document carSpecPageDoc = Jsoup.parse(in, null);
+    void testExtract() {
+        String carCategoryUrl = "https://www.mobile.de/auto/volkswagen-polo-gti-dsg.html?lang=en";
+        CarCategoryMetadata metadata = extractor.extract(jsonContent, carCategoryUrl);
 
-        CarCategoryMetadata result = carCategoryMetadataExtractor.extract(carSpecPageDoc, carSpecPageUrl);
-
-        assertEquals(carSpecPageUrl, result.getUrl());
-        assertEquals(5280, result.getTotalListings());
-        assertEquals(50, result.getTotalPages());
-        assertNotNull(result.getScrapedTime());*/
-
+        assertNotNull(metadata);
+        assertEquals(carCategoryUrl, metadata.getUrl());
+        assertEquals(988, metadata.getTotalListings());
+        assertEquals(50, metadata.getTotalPages());
     }
 }
