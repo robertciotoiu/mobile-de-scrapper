@@ -1,0 +1,4202 @@
+{
+  "searchResults": {
+    "searchId": "daee231e-de1c-3322-944b-e3bd7889bc14",
+    "numResultsTotal": 988,
+    "page": 1,
+    "numPages": 50,
+    "obsSearchResultsCount": 17403,
+    "hasNextPage": true,
+    "items": [
+      {
+        "isEyeCatcher": false,
+        "numImages": 14,
+        "attr": {
+          "cn": "DE",
+          "z": "27356",
+          "loc": "Rotenburg",
+          "fr": "07\u002F2020",
+          "pw": "147 kW (200 hp)",
+          "ft": "Petrol",
+          "ml": "41,135 km",
+          "cc": "1,984 ccm",
+          "tr": "Automatic",
+          "gi": "New",
+          "ecol": "Black",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "SmallCar",
+          "emc": "Euro6d-TEMP",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC",
+        "isVideoEnabled": true,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=400685894&loanType=balloon&loanDuration=60&downPayment=4598",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 4598,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 18392,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 248.5,
+              "finalInstallment": 7586.7,
+              "totalInterest": 3856.05,
+              "totalAmount": 22248.05,
+              "localized": {
+                "downPayment": "€4,598",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€18,392",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€249",
+                "finalInstallment": "€7,586.70",
+                "totalInterest": "€3,856.05",
+                "totalAmount": "€22,248.05",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€249",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€249",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 248.5,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 248.5,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 455835,
+        "priceRating": {
+          "rating": "REASONABLE_PRICE",
+          "ratingLabel": "Fair price",
+          "thresholdLabels": [
+            "€17,000",
+            "€20,200",
+            "€21,500",
+            "€24,200",
+            "€27,600",
+            "€28,800"
+          ],
+          "vehiclePriceOffset": 55
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC",
+        "vc": "Car",
+        "category": "Small Car",
+        "id": 400685894,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CDU"
+        },
+        "customDimensions": {
+          "10": "gold"
+        },
+        "previewThumbnails": [
+          {
+            "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7f\u002F7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-160.jpg",
+            "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7f\u002F7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7f\u002F7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7f\u002F7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7f\u002F7f5a5fbf-69a1-4b4b-87f0-98365671219a?rule=mo-1024.jpg 1024w",
+            "alt": "Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC - Volkswagen Polo: GTI dsg"
+          },
+          {
+            "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcf\u002Fcf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-160.jpg",
+            "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcf\u002Fcf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcf\u002Fcf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcf\u002Fcf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcf\u002Fcf8fe1d2-47a5-40ae-8e8d-bb13943c0377?rule=mo-1024.jpg 1024w",
+            "alt": "Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC - Volkswagen Polo: GTI dsg"
+          },
+          {
+            "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F14\u002F141636eb-5efe-440d-bff9-47579986e168?rule=mo-160.jpg",
+            "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F14\u002F141636eb-5efe-440d-bff9-47579986e168?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F14\u002F141636eb-5efe-440d-bff9-47579986e168?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F14\u002F141636eb-5efe-440d-bff9-47579986e168?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F14\u002F141636eb-5efe-440d-bff9-47579986e168?rule=mo-1024.jpg 1024w",
+            "alt": "Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC - Volkswagen Polo: GTI dsg"
+          }
+        ],
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 07\u002F2020"
+            },
+            {
+              "value": "41,135 km"
+            },
+            {
+              "value": "147 kW (200 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus Schmidt + Koch GmbH",
+          "location": "27356 Rotenburg",
+          "rating": {
+            "score": 4.7,
+            "count": 30
+          },
+          "logo": {
+            "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F8c\u002F8c59d955-063e-4523-bf38-5a7682d48643?rule=mo-80.jpg",
+            "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F8c\u002F8c59d955-063e-4523-bf38-5a7682d48643?rule=mo-80.jpg 80w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F8c\u002F8c59d955-063e-4523-bf38-5a7682d48643?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F8c\u002F8c59d955-063e-4523-bf38-5a7682d48643?rule=mo-240.jpg 240w",
+            "alt": "Autohaus Schmidt + Koch GmbH"
+          },
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)4261 980930",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F400685894?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F400685894?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ff9\u002Ff919fb88-0dd1-43e7-8da2-07ff3eca92f1?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ff9\u002Ff919fb88-0dd1-43e7-8da2-07ff3eca92f1?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ff9\u002Ff919fb88-0dd1-43e7-8da2-07ff3eca92f1?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ff9\u002Ff919fb88-0dd1-43e7-8da2-07ff3eca92f1?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ff9\u002Ff919fb88-0dd1-43e7-8da2-07ff3eca92f1?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo GTI 2.0 TSI OPF DSG LED-Scheinw. Navi PDC - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€22,990",
+          "grossAmount": 22990,
+          "grossCurrency": "EUR",
+          "net": "€19,319",
+          "netAmount": 19319.33,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=400685894&action=topOfPage&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "topAd"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 9,
+        "attr": {
+          "cn": "DE",
+          "z": "27607",
+          "loc": "Geestland",
+          "fr": "08\u002F2010",
+          "pw": "128 kW (174 hp)",
+          "ft": "Petrol",
+          "ml": "172,710 km",
+          "tr": "Automatic",
+          "gi": "05\u002F2026",
+          "c": "SmallCar"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "VW Polo GTI DSG Tüv Neu Klima",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409315094&loanType=balloon&loanDuration=60&downPayment=1350",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 1350,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 5400,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 72.96,
+              "finalInstallment": 2227.5,
+              "totalInterest": 1132.16,
+              "totalAmount": 6532.16,
+              "localized": {
+                "downPayment": "€1,350",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€5,400",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€73",
+                "finalInstallment": "€2,227.50",
+                "totalInterest": "€1,132.16",
+                "totalAmount": "€6,532.16",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€73",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€73",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 72.96,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 72.96,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 7723851,
+        "priceRating": {
+          "rating": "NO_RATING",
+          "ratingLabel": "No rating",
+          "noRatingReason": "mobile.de only rates the price of a vehicle if a sufficient volume of comparative data is available. If not, because too little comparable data has been advertised in the past, mobile.de is unable to make a realistic price rating."
+        },
+        "segment": "Car",
+        "partnerName": "kleinanzeigen",
+        "title": "Volkswagen VW Polo GTI DSG Tüv Neu Klima",
+        "vc": "Car",
+        "category": "Small Car",
+        "id": 409315094,
+        "customDimensions": {
+          "10": "partner"
+        },
+        "attributes": [
+          [
+            {
+              "value": "FR 08\u002F2010"
+            },
+            {
+              "value": "172,710 km"
+            },
+            {
+              "value": "128 kW (174 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Private Seller",
+          "location": "27607 Geestland",
+          "rating": null,
+          "logo": null,
+          "hasContactPhones": false,
+          "contactPhone": null,
+          "country": "DE",
+          "sellerType": "FSBO"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409315094?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409315094?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7b\u002F7b5e0090-c86c-4cec-a8f5-d852943659ee?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7b\u002F7b5e0090-c86c-4cec-a8f5-d852943659ee?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7b\u002F7b5e0090-c86c-4cec-a8f5-d852943659ee?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7b\u002F7b5e0090-c86c-4cec-a8f5-d852943659ee?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F7b\u002F7b5e0090-c86c-4cec-a8f5-d852943659ee?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen VW Polo GTI DSG Tüv Neu Klima - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€6,750",
+          "grossAmount": 6750,
+          "grossCurrency": "EUR"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409315094&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 18,
+        "attr": {
+          "cn": "DE",
+          "z": "21255",
+          "loc": "Tostedt",
+          "fr": "11\u002F2024",
+          "yc": "2024",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "10 km",
+          "cc": "1,984 ccm",
+          "csmpt": "6.8 l\u002F100km (comb.)",
+          "emiss": "154 g CO₂\u002Fkm (comb.)",
+          "co2class": "CO₂ class E (comb.)",
+          "tr": "Automatic",
+          "gi": "New",
+          "subc": "Employee's Car",
+          "ecol": "Grey",
+          "eu": "EU edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409304950&loanType=balloon&loanDuration=60&downPayment=5778",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 5778,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 23112,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 312.27,
+              "finalInstallment": 9533.7,
+              "totalInterest": 4845.64,
+              "totalAmount": 27957.64,
+              "localized": {
+                "downPayment": "€5,778",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€23,112",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€313",
+                "finalInstallment": "€9,533.70",
+                "totalInterest": "€4,845.64",
+                "totalAmount": "€27,957.64",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€313",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€313",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 312.27,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 312.27,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 459173,
+        "priceRating": {
+          "rating": "REASONABLE_PRICE",
+          "ratingLabel": "Fair price",
+          "thresholdLabels": [
+            "€23,000",
+            "€27,300",
+            "€28,700",
+            "€30,900",
+            "€34,400",
+            "€39,200"
+          ],
+          "vehiclePriceOffset": 8
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409304950,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 11\u002F2024"
+            },
+            {
+              "value": "10 km"
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          [
+            {
+              "value": "6.8 l\u002F100km (comb.)"
+            },
+            {
+              "value": "154 g CO₂\u002Fkm (comb.)"
+            },
+            {
+              "value": "CO₂ class E (comb.)"
+            }
+          ]
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus Meyer GmbH",
+          "location": "21255 Tostedt",
+          "rating": {
+            "score": 4.5,
+            "count": 53
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)4182 4093912",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409304950?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409304950?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd8\u002Fd89983af-c430-4f98-825d-ea1b2ba71d9e?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd8\u002Fd89983af-c430-4f98-825d-ea1b2ba71d9e?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd8\u002Fd89983af-c430-4f98-825d-ea1b2ba71d9e?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd8\u002Fd89983af-c430-4f98-825d-ea1b2ba71d9e?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd8\u002Fd89983af-c430-4f98-825d-ea1b2ba71d9e?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€28,890",
+          "grossAmount": 28890,
+          "grossCurrency": "EUR",
+          "net": "€24,277",
+          "netAmount": 24277.31,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409304950&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 18,
+        "attr": {
+          "cn": "DE",
+          "z": "21255",
+          "loc": "Tostedt",
+          "fr": "11\u002F2024",
+          "yc": "2024",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "10 km",
+          "cc": "1,984 ccm",
+          "csmpt": "6.8 l\u002F100km (comb.)",
+          "emiss": "154 g CO₂\u002Fkm (comb.)",
+          "co2class": "CO₂ class E (comb.)",
+          "tr": "Automatic",
+          "gi": "New",
+          "subc": "Employee's Car",
+          "ecol": "Grey",
+          "eu": "EU edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409304926&loanType=balloon&loanDuration=60&downPayment=5778",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 5778,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 23112,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 312.27,
+              "finalInstallment": 9533.7,
+              "totalInterest": 4845.64,
+              "totalAmount": 27957.64,
+              "localized": {
+                "downPayment": "€5,778",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€23,112",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€313",
+                "finalInstallment": "€9,533.70",
+                "totalInterest": "€4,845.64",
+                "totalAmount": "€27,957.64",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€313",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€313",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 312.27,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 312.27,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 459173,
+        "priceRating": {
+          "rating": "GOOD_PRICE",
+          "ratingLabel": "Good price",
+          "thresholdLabels": [
+            "€23,200",
+            "€27,500",
+            "€28,900",
+            "€31,100",
+            "€34,600",
+            "€39,400"
+          ],
+          "vehiclePriceOffset": 99
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409304926,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 11\u002F2024"
+            },
+            {
+              "value": "10 km"
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          [
+            {
+              "value": "6.8 l\u002F100km (comb.)"
+            },
+            {
+              "value": "154 g CO₂\u002Fkm (comb.)"
+            },
+            {
+              "value": "CO₂ class E (comb.)"
+            }
+          ]
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus Meyer GmbH",
+          "location": "21255 Tostedt",
+          "rating": {
+            "score": 4.5,
+            "count": 53
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)4182 4093912",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409304926?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409304926?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€28,890",
+          "grossAmount": 28890,
+          "grossCurrency": "EUR",
+          "net": "€24,277",
+          "netAmount": 24277.31,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409304926&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "type": "page1Ads",
+        "items": [
+          {
+            "isEyeCatcher": false,
+            "numImages": 24,
+            "attr": {
+              "cn": "DE",
+              "z": "84347",
+              "loc": "Pfarrkirchen",
+              "fr": "10\u002F2023",
+              "pw": "152 kW (207 hp)",
+              "ft": "Petrol",
+              "ml": "15,663 km",
+              "cc": "1,984 ccm",
+              "tr": "Automatic",
+              "gi": "New",
+              "ecol": "Blue",
+              "eu": "German edition",
+              "door": "4\u002F5",
+              "sc": "5",
+              "c": "Limousine",
+              "emc": "Euro6d",
+              "pvo": "1",
+              "nw": "1,372 kg"
+            },
+            "shortTitle": "Volkswagen Polo",
+            "subTitle": "GTI 2.0 TSI DSG PANO+NAVI+SHZ+MATRIX+KAMERA",
+            "isVideoEnabled": true,
+            "financePlans": [
+              {
+                "type": "DF",
+                "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F3?adId=396780853&loanType=balloon&loanDuration=60&downPayment=5544",
+                "showInGallery": false,
+                "offer": {
+                  "bankId": "Santander",
+                  "bankName": "Santander Consumer Bank AG",
+                  "loanType": "BALLOON",
+                  "downPayment": 5544,
+                  "creditTerm": 60,
+                  "yearlyMileage": 10000,
+                  "creditAmount": 22176,
+                  "interestRateNominal": 5.83,
+                  "interestRateEffective": 5.99,
+                  "monthlyInstallment": 291.53,
+                  "finalInstallment": 9702,
+                  "totalInterest": 4726.07,
+                  "totalAmount": 26902.07,
+                  "localized": {
+                    "downPayment": "€5,544",
+                    "downPaymentInPercent": "20%",
+                    "creditTerm": "60",
+                    "creditTermInYears": "5",
+                    "yearlyMileage": "10,000",
+                    "creditAmount": "€22,176",
+                    "interestRateNominal": "5.83%",
+                    "interestRateEffective": "5.99%",
+                    "monthlyInstallment": "€292",
+                    "finalInstallment": "€9,702.00",
+                    "totalInterest": "€4,726.07",
+                    "totalAmount": "€26,902.07",
+                    "disclaimer": "Repräsentatives Beispiel: Vorstehende Angaben stellen zugleich das 2\u002F3-Beispiel gem. § 17 Abs. 4 PAngV dar. Ein Finanzierungsangebot der Santander Consumer Bank AG, Santander-Platz 1, 41061 Mönchengladbach (Darlehensgeber). Bonität vorausgesetzt."
+                  }
+                },
+                "budgetStatus": "FALLBACK",
+                "fallback": true,
+                "bankId": "Santander",
+                "downPayment": 0,
+                "loanDuration": 60,
+                "localized": {
+                  "downPayment": "€0"
+                }
+              },
+              {
+                "type": "AO",
+                "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F3?adId=396780853&loanType=balloon&loanDuration=60&downPayment=5544",
+                "showInGallery": false,
+                "offer": {
+                  "bankName": "Santander Carcredit",
+                  "loanBroker": "Check24 GmbH",
+                  "loanType": "BALLOON",
+                  "downPayment": 5544,
+                  "creditTerm": 60,
+                  "yearlyMileage": 10000,
+                  "creditAmount": 22176,
+                  "interestRateNominal": 5.83,
+                  "interestRateEffective": 5.99,
+                  "monthlyInstallment": 299.62,
+                  "finalInstallment": 9147.6,
+                  "totalInterest": 4649.39,
+                  "totalAmount": 26825.39,
+                  "localized": {
+                    "downPayment": "€5,544",
+                    "downPaymentInPercent": "20%",
+                    "creditTerm": "60",
+                    "creditTermInYears": "5",
+                    "yearlyMileage": "10,000",
+                    "creditAmount": "€22,176",
+                    "interestRateNominal": "5.83%",
+                    "interestRateEffective": "5.99%",
+                    "monthlyInstallment": "€300",
+                    "finalInstallment": "€9,147.60",
+                    "totalInterest": "€4,649.39",
+                    "totalAmount": "€26,825.39",
+                    "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                    "minMonthlyInstallment": "€300",
+                    "minInterestRateEffective": "5.99%",
+                    "minInterestRateNominal": "5.83%",
+                    "maxMonthlyInstallment": "€300",
+                    "maxInterestRateEffective": "5.99%",
+                    "maxInterestRateNominal": "5.83%"
+                  },
+                  "minMonthlyInstallment": 299.62,
+                  "minInterestRateEffective": 5.99,
+                  "minInterestRateNominal": 5.83,
+                  "maxMonthlyInstallment": 299.62,
+                  "maxInterestRateEffective": 5.99,
+                  "maxInterestRateNominal": 5.83
+                },
+                "budgetStatus": "FALLBACK",
+                "fallback": true,
+                "downPayment": 0,
+                "loanDuration": 60,
+                "localized": {
+                  "downPayment": "€0"
+                }
+              }
+            ],
+            "sellerId": 452440,
+            "priceRating": {
+              "rating": "GOOD_PRICE",
+              "ratingLabel": "Good price",
+              "thresholdLabels": [
+                "€22,600",
+                "€26,700",
+                "€28,600",
+                "€32,000",
+                "€36,700",
+                "€38,400"
+              ],
+              "vehiclePriceOffset": 53
+            },
+            "segment": "Car",
+            "title": "Volkswagen Polo GTI 2.0 TSI DSG PANO+NAVI+SHZ+MATRIX+KAMERA",
+            "vc": "Car",
+            "category": "Saloon",
+            "id": 396780853,
+            "kba": {
+              "hsn": "0603",
+              "tsn": "CPW"
+            },
+            "customDimensions": {
+              "10": "gold"
+            },
+            "attributes": [
+              [
+                {
+                  "value": "Accident-free",
+                  "bold": true
+                },
+                {
+                  "value": "FR 10\u002F2023"
+                },
+                {
+                  "value": "15,663 km"
+                },
+                {
+                  "value": "152 kW (207 hp)"
+                },
+                {
+                  "value": "Petrol"
+                }
+              ],
+              []
+            ],
+            "availability": null,
+            "contactInfo": {
+              "typeLocalized": "Dealer",
+              "name": "Autocenter Neuss GmbH & Co. KG",
+              "location": "84347 Pfarrkirchen",
+              "rating": {
+                "score": 4.6,
+                "count": 46
+              },
+              "logo": {
+                "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F2a\u002F2a49d34a-bc64-4a4c-84ea-0de84a122416?rule=mo-80.jpg",
+                "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F2a\u002F2a49d34a-bc64-4a4c-84ea-0de84a122416?rule=mo-80.jpg 80w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F2a\u002F2a49d34a-bc64-4a4c-84ea-0de84a122416?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F2a\u002F2a49d34a-bc64-4a4c-84ea-0de84a122416?rule=mo-240.jpg 240w",
+                "alt": "Autocenter Neuss GmbH & Co. KG"
+              },
+              "hasContactPhones": true,
+              "contactPhone": "+49 (0)8561 970780",
+              "country": "DE",
+              "sellerType": "DEALER"
+            },
+            "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F396780853?ref=srpContact",
+            "isFinancingAvailable": true,
+            "isNullLeasingBto": false,
+            "leasingRate": null,
+            "make": "Volkswagen",
+            "model": "Polo",
+            "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F396780853?lastSearch=lang%3Den",
+            "previewImage": {
+              "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fa8\u002Fa8e872ec-21f7-4dc2-a3ac-e206496539d4?rule=mo-160.jpg",
+              "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fa8\u002Fa8e872ec-21f7-4dc2-a3ac-e206496539d4?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fa8\u002Fa8e872ec-21f7-4dc2-a3ac-e206496539d4?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fa8\u002Fa8e872ec-21f7-4dc2-a3ac-e206496539d4?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fa8\u002Fa8e872ec-21f7-4dc2-a3ac-e206496539d4?rule=mo-1024.jpg 1024w",
+              "alt": "Volkswagen Polo GTI 2.0 TSI DSG PANO+NAVI+SHZ+MATRIX+KAMERA"
+            },
+            "price": {
+              "gross": "€27,720",
+              "grossAmount": 27720,
+              "grossCurrency": "EUR",
+              "net": "€23,294",
+              "netAmount": 23294.12,
+              "vat": "19% VAT"
+            },
+            "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=396780853&action=topInCategory&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+            "supportedLeasingType": null,
+            "type": "page1Ad"
+          },
+          {
+            "isEyeCatcher": true,
+            "numImages": 6,
+            "attr": {
+              "cn": "DE",
+              "z": "47829",
+              "loc": "Krefeld",
+              "fr": "06\u002F2018",
+              "pw": "147 kW (200 hp)",
+              "ft": "Petrol",
+              "ml": "39,500 km",
+              "cc": "1,984 ccm",
+              "tr": "Automatic",
+              "gi": "05\u002F2025",
+              "ecol": "Black",
+              "door": "4\u002F5",
+              "sc": "5",
+              "c": "SmallCar",
+              "emc": "Euro6",
+              "pvo": "2"
+            },
+            "shortTitle": "Volkswagen Polo",
+            "subTitle": "GTI 2.0 TSI DSG\u002FACC\u002FSHZ\u002F PDC\u002F DIG-DISPLAY",
+            "isVideoEnabled": false,
+            "financePlans": [
+              {
+                "type": "AO",
+                "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=407829033&loanType=balloon&loanDuration=60&downPayment=3690",
+                "showInGallery": false,
+                "offer": {
+                  "bankName": "Santander Carcredit",
+                  "loanBroker": "Check24 GmbH",
+                  "loanType": "BALLOON",
+                  "downPayment": 3690,
+                  "creditTerm": 60,
+                  "yearlyMileage": 10000,
+                  "creditAmount": 14760,
+                  "interestRateNominal": 5.83,
+                  "interestRateEffective": 5.99,
+                  "monthlyInstallment": 199.42,
+                  "finalInstallment": 6088.5,
+                  "totalInterest": 3094.56,
+                  "totalAmount": 17854.56,
+                  "localized": {
+                    "downPayment": "€3,690",
+                    "downPaymentInPercent": "20%",
+                    "creditTerm": "60",
+                    "creditTermInYears": "5",
+                    "yearlyMileage": "10,000",
+                    "creditAmount": "€14,760",
+                    "interestRateNominal": "5.83%",
+                    "interestRateEffective": "5.99%",
+                    "monthlyInstallment": "€200",
+                    "finalInstallment": "€6,088.50",
+                    "totalInterest": "€3,094.56",
+                    "totalAmount": "€17,854.56",
+                    "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                    "minMonthlyInstallment": "€200",
+                    "minInterestRateEffective": "5.99%",
+                    "minInterestRateNominal": "5.83%",
+                    "maxMonthlyInstallment": "€200",
+                    "maxInterestRateEffective": "5.99%",
+                    "maxInterestRateNominal": "5.83%"
+                  },
+                  "minMonthlyInstallment": 199.42,
+                  "minInterestRateEffective": 5.99,
+                  "minInterestRateNominal": 5.83,
+                  "maxMonthlyInstallment": 199.42,
+                  "maxInterestRateEffective": 5.99,
+                  "maxInterestRateNominal": 5.83
+                },
+                "budgetStatus": "FALLBACK",
+                "fallback": true,
+                "downPayment": 0,
+                "loanDuration": 60,
+                "localized": {
+                  "downPayment": "€0"
+                }
+              }
+            ],
+            "sellerId": 35317759,
+            "priceRating": {
+              "rating": "VERY_GOOD_PRICE",
+              "ratingLabel": "Very good price",
+              "thresholdLabels": [
+                "€15,500",
+                "€18,500",
+                "€19,700",
+                "€22,100",
+                "€25,300",
+                "€26,400"
+              ],
+              "vehiclePriceOffset": 98
+            },
+            "segment": "Car",
+            "title": "Volkswagen Polo GTI 2.0 TSI DSG\u002FACC\u002FSHZ\u002F PDC\u002F DIG-DISPLAY",
+            "vc": "Car",
+            "category": "Small Car",
+            "id": 407829033,
+            "customDimensions": {
+              "10": "fsbo"
+            },
+            "previewThumbnails": [
+              {
+                "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fb4\u002Fb497f505-42f5-4eb7-95cc-6debe91265df?rule=mo-160.jpg",
+                "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fb4\u002Fb497f505-42f5-4eb7-95cc-6debe91265df?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fb4\u002Fb497f505-42f5-4eb7-95cc-6debe91265df?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fb4\u002Fb497f505-42f5-4eb7-95cc-6debe91265df?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fb4\u002Fb497f505-42f5-4eb7-95cc-6debe91265df?rule=mo-1024.jpg 1024w",
+                "alt": "Volkswagen Polo GTI 2.0 TSI DSG\u002FACC\u002FSHZ\u002F PDC\u002F DIG-DISPLAY"
+              },
+              {
+                "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fa0\u002Fa0014b3a-ff3f-4f50-a718-b7bb76ba9624?rule=mo-160.jpg",
+                "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fa0\u002Fa0014b3a-ff3f-4f50-a718-b7bb76ba9624?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fa0\u002Fa0014b3a-ff3f-4f50-a718-b7bb76ba9624?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fa0\u002Fa0014b3a-ff3f-4f50-a718-b7bb76ba9624?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fa0\u002Fa0014b3a-ff3f-4f50-a718-b7bb76ba9624?rule=mo-1024.jpg 1024w",
+                "alt": "Volkswagen Polo GTI 2.0 TSI DSG\u002FACC\u002FSHZ\u002F PDC\u002F DIG-DISPLAY"
+              },
+              {
+                "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F56\u002F564a0833-66ec-4aa7-b2d4-7b3174914980?rule=mo-160.jpg",
+                "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F56\u002F564a0833-66ec-4aa7-b2d4-7b3174914980?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F56\u002F564a0833-66ec-4aa7-b2d4-7b3174914980?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F56\u002F564a0833-66ec-4aa7-b2d4-7b3174914980?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F56\u002F564a0833-66ec-4aa7-b2d4-7b3174914980?rule=mo-1024.jpg 1024w",
+                "alt": "Volkswagen Polo GTI 2.0 TSI DSG\u002FACC\u002FSHZ\u002F PDC\u002F DIG-DISPLAY"
+              }
+            ],
+            "attributes": [
+              [
+                {
+                  "value": "Accident-free",
+                  "bold": true
+                },
+                {
+                  "value": "FR 06\u002F2018"
+                },
+                {
+                  "value": "39,500 km"
+                },
+                {
+                  "value": "147 kW (200 hp)"
+                },
+                {
+                  "value": "Petrol"
+                }
+              ],
+              []
+            ],
+            "availability": null,
+            "contactInfo": {
+              "typeLocalized": "Private Seller",
+              "location": "47829 Krefeld",
+              "rating": null,
+              "logo": null,
+              "hasContactPhones": false,
+              "contactPhone": null,
+              "country": "DE",
+              "sellerType": "FSBO"
+            },
+            "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F407829033?ref=srpContact",
+            "isFinancingAvailable": true,
+            "isNullLeasingBto": false,
+            "leasingRate": null,
+            "make": "Volkswagen",
+            "model": "Polo",
+            "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F407829033?lastSearch=lang%3Den",
+            "previewImage": {
+              "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ffe\u002Ffe3da10c-b698-44a5-b583-1937c4b4b1fa?rule=mo-160.jpg",
+              "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ffe\u002Ffe3da10c-b698-44a5-b583-1937c4b4b1fa?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ffe\u002Ffe3da10c-b698-44a5-b583-1937c4b4b1fa?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ffe\u002Ffe3da10c-b698-44a5-b583-1937c4b4b1fa?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Ffe\u002Ffe3da10c-b698-44a5-b583-1937c4b4b1fa?rule=mo-1024.jpg 1024w",
+              "alt": "Volkswagen Polo GTI 2.0 TSI DSG\u002FACC\u002FSHZ\u002F PDC\u002F DIG-DISPLAY"
+            },
+            "price": {
+              "gross": "€18,450",
+              "grossAmount": 18450,
+              "grossCurrency": "EUR"
+            },
+            "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=407829033&action=topInCategory&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+            "supportedLeasingType": null,
+            "type": "page1Ad"
+          },
+          {
+            "isEyeCatcher": true,
+            "numImages": 8,
+            "attr": {
+              "cn": "DE",
+              "z": "90763",
+              "loc": "Fürth",
+              "fr": "10\u002F2011",
+              "pw": "132 kW (179 hp)",
+              "ft": "Petrol",
+              "ml": "71,000 km",
+              "cc": "1,390 ccm",
+              "tr": "Automatic",
+              "gi": "New",
+              "ecol": "Black",
+              "eu": "German edition",
+              "door": "2\u002F3",
+              "sc": "5",
+              "c": "SmallCar",
+              "emc": "Euro5",
+              "pvo": "2"
+            },
+            "shortTitle": "Volkswagen Polo",
+            "subTitle": "V GTI DSG Xenon",
+            "isVideoEnabled": true,
+            "financePlans": [
+              {
+                "type": "DF",
+                "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F3?adId=393205721&loanType=balloon&loanDuration=60&downPayment=2290",
+                "showInGallery": false,
+                "offer": {
+                  "bankId": "Santander",
+                  "bankName": "Santander Consumer Bank AG",
+                  "loanType": "BALLOON",
+                  "downPayment": 2290,
+                  "creditTerm": 60,
+                  "yearlyMileage": 10000,
+                  "creditAmount": 9160,
+                  "interestRateNominal": 7.71,
+                  "interestRateEffective": 7.99,
+                  "monthlyInstallment": 131.32,
+                  "finalInstallment": 4007.5,
+                  "totalInterest": 2595.27,
+                  "totalAmount": 11755.27,
+                  "localized": {
+                    "downPayment": "€2,290",
+                    "downPaymentInPercent": "20%",
+                    "creditTerm": "60",
+                    "creditTermInYears": "5",
+                    "yearlyMileage": "10,000",
+                    "creditAmount": "€9,160",
+                    "interestRateNominal": "7.71%",
+                    "interestRateEffective": "7.99%",
+                    "monthlyInstallment": "€132",
+                    "finalInstallment": "€4,007.50",
+                    "totalInterest": "€2,595.27",
+                    "totalAmount": "€11,755.27",
+                    "disclaimer": "Repräsentatives Beispiel: Vorstehende Angaben stellen zugleich das 2\u002F3-Beispiel gem. § 17 Abs. 4 PAngV dar. Ein Finanzierungsangebot der Santander Consumer Bank AG, Santander-Platz 1, 41061 Mönchengladbach (Darlehensgeber). Bonität vorausgesetzt."
+                  }
+                },
+                "budgetStatus": "FALLBACK",
+                "fallback": true,
+                "bankId": "Santander",
+                "downPayment": 0,
+                "loanDuration": 60,
+                "localized": {
+                  "downPayment": "€0"
+                }
+              },
+              {
+                "type": "AO",
+                "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F3?adId=393205721&loanType=balloon&loanDuration=60&downPayment=2290",
+                "showInGallery": false,
+                "offer": {
+                  "bankName": "Santander Carcredit",
+                  "loanBroker": "Check24 GmbH",
+                  "loanType": "BALLOON",
+                  "downPayment": 2290,
+                  "creditTerm": 60,
+                  "yearlyMileage": 10000,
+                  "creditAmount": 9160,
+                  "interestRateNominal": 5.83,
+                  "interestRateEffective": 5.99,
+                  "monthlyInstallment": 123.76,
+                  "finalInstallment": 3778.5,
+                  "totalInterest": 1920.48,
+                  "totalAmount": 11080.48,
+                  "localized": {
+                    "downPayment": "€2,290",
+                    "downPaymentInPercent": "20%",
+                    "creditTerm": "60",
+                    "creditTermInYears": "5",
+                    "yearlyMileage": "10,000",
+                    "creditAmount": "€9,160",
+                    "interestRateNominal": "5.83%",
+                    "interestRateEffective": "5.99%",
+                    "monthlyInstallment": "€124",
+                    "finalInstallment": "€3,778.50",
+                    "totalInterest": "€1,920.48",
+                    "totalAmount": "€11,080.48",
+                    "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                    "minMonthlyInstallment": "€124",
+                    "minInterestRateEffective": "5.99%",
+                    "minInterestRateNominal": "5.83%",
+                    "maxMonthlyInstallment": "€124",
+                    "maxInterestRateEffective": "5.99%",
+                    "maxInterestRateNominal": "5.83%"
+                  },
+                  "minMonthlyInstallment": 123.76,
+                  "minInterestRateEffective": 5.99,
+                  "minInterestRateNominal": 5.83,
+                  "maxMonthlyInstallment": 123.76,
+                  "maxInterestRateEffective": 5.99,
+                  "maxInterestRateNominal": 5.83
+                },
+                "budgetStatus": "FALLBACK",
+                "fallback": true,
+                "downPayment": 0,
+                "loanDuration": 60,
+                "localized": {
+                  "downPayment": "€0"
+                }
+              }
+            ],
+            "sellerId": 12469504,
+            "priceRating": {
+              "rating": "NO_RATING",
+              "ratingLabel": "No rating",
+              "noRatingReason": "mobile.de only rates the price of a vehicle if a sufficient volume of comparative data is available. If not, because too little comparable data has been advertised in the past, mobile.de is unable to make a realistic price rating."
+            },
+            "segment": "Car",
+            "title": "Volkswagen Polo V GTI DSG Xenon",
+            "vc": "Car",
+            "category": "Small Car",
+            "id": 393205721,
+            "customDimensions": {
+              "10": "gold"
+            },
+            "previewThumbnails": [
+              {
+                "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9e\u002F9ee47151-ae49-4c00-8a15-bb0d3dd87d72?rule=mo-160.jpg",
+                "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9e\u002F9ee47151-ae49-4c00-8a15-bb0d3dd87d72?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9e\u002F9ee47151-ae49-4c00-8a15-bb0d3dd87d72?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9e\u002F9ee47151-ae49-4c00-8a15-bb0d3dd87d72?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9e\u002F9ee47151-ae49-4c00-8a15-bb0d3dd87d72?rule=mo-1024.jpg 1024w",
+                "alt": "Volkswagen Polo V GTI DSG Xenon"
+              },
+              {
+                "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F44\u002F44b62e48-a970-4e95-bfe0-ecffedd7f713?rule=mo-160.jpg",
+                "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F44\u002F44b62e48-a970-4e95-bfe0-ecffedd7f713?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F44\u002F44b62e48-a970-4e95-bfe0-ecffedd7f713?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F44\u002F44b62e48-a970-4e95-bfe0-ecffedd7f713?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F44\u002F44b62e48-a970-4e95-bfe0-ecffedd7f713?rule=mo-1024.jpg 1024w",
+                "alt": "Volkswagen Polo V GTI DSG Xenon"
+              },
+              {
+                "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9e\u002F9e62f625-e2e9-4aad-98a6-9e09042ecded?rule=mo-160.jpg",
+                "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9e\u002F9e62f625-e2e9-4aad-98a6-9e09042ecded?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9e\u002F9e62f625-e2e9-4aad-98a6-9e09042ecded?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9e\u002F9e62f625-e2e9-4aad-98a6-9e09042ecded?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9e\u002F9e62f625-e2e9-4aad-98a6-9e09042ecded?rule=mo-1024.jpg 1024w",
+                "alt": "Volkswagen Polo V GTI DSG Xenon"
+              }
+            ],
+            "attributes": [
+              [
+                {
+                  "value": "FR 10\u002F2011"
+                },
+                {
+                  "value": "71,000 km"
+                },
+                {
+                  "value": "132 kW (179 hp)"
+                },
+                {
+                  "value": "Petrol"
+                }
+              ],
+              []
+            ],
+            "availability": null,
+            "contactInfo": {
+              "typeLocalized": "Dealer",
+              "name": "Auto Bernhart e. K.",
+              "location": "90763 Fürth",
+              "rating": {
+                "score": 5,
+                "count": 3
+              },
+              "logo": {
+                "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fca\u002Fca121e73-41fe-4524-96f8-593cf316c0f3?rule=mo-80.jpg",
+                "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fca\u002Fca121e73-41fe-4524-96f8-593cf316c0f3?rule=mo-80.jpg 80w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fca\u002Fca121e73-41fe-4524-96f8-593cf316c0f3?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fca\u002Fca121e73-41fe-4524-96f8-593cf316c0f3?rule=mo-240.jpg 240w",
+                "alt": "Auto Bernhart e. K."
+              },
+              "hasContactPhones": true,
+              "contactPhone": "+49 (0)911 9701635",
+              "country": "DE",
+              "sellerType": "DEALER"
+            },
+            "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F393205721?ref=srpContact",
+            "isFinancingAvailable": true,
+            "isNullLeasingBto": false,
+            "leasingRate": null,
+            "make": "Volkswagen",
+            "model": "Polo",
+            "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F393205721?lastSearch=lang%3Den",
+            "previewImage": {
+              "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F15\u002F1578efbd-4ba1-4a86-ac46-19cf8986917f?rule=mo-160.jpg",
+              "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F15\u002F1578efbd-4ba1-4a86-ac46-19cf8986917f?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F15\u002F1578efbd-4ba1-4a86-ac46-19cf8986917f?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F15\u002F1578efbd-4ba1-4a86-ac46-19cf8986917f?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F15\u002F1578efbd-4ba1-4a86-ac46-19cf8986917f?rule=mo-1024.jpg 1024w",
+              "alt": "Volkswagen Polo V GTI DSG Xenon"
+            },
+            "price": {
+              "gross": "€11,450",
+              "grossAmount": 11450,
+              "grossCurrency": "EUR"
+            },
+            "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=393205721&action=topInCategory&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+            "supportedLeasingType": null,
+            "type": "page1Ad"
+          }
+        ]
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 16,
+        "attr": {
+          "cn": "DE",
+          "z": "21255",
+          "loc": "Tostedt",
+          "fr": "11\u002F2024",
+          "yc": "2024",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "10 km",
+          "cc": "1,984 ccm",
+          "csmpt": "6.8 l\u002F100km (comb.)",
+          "emiss": "154 g CO₂\u002Fkm (comb.)",
+          "co2class": "CO₂ class E (comb.)",
+          "tr": "Automatic",
+          "gi": "New",
+          "subc": "Employee's Car",
+          "ecol": "Black",
+          "eu": "EU edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409304883&loanType=balloon&loanDuration=60&downPayment=5778",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 5778,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 23112,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 312.27,
+              "finalInstallment": 9533.7,
+              "totalInterest": 4845.64,
+              "totalAmount": 27957.64,
+              "localized": {
+                "downPayment": "€5,778",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€23,112",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€313",
+                "finalInstallment": "€9,533.70",
+                "totalInterest": "€4,845.64",
+                "totalAmount": "€27,957.64",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€313",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€313",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 312.27,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 312.27,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 459173,
+        "priceRating": {
+          "rating": "GOOD_PRICE",
+          "ratingLabel": "Good price",
+          "thresholdLabels": [
+            "€23,200",
+            "€27,500",
+            "€28,900",
+            "€31,100",
+            "€34,600",
+            "€39,400"
+          ],
+          "vehiclePriceOffset": 99
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409304883,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 11\u002F2024"
+            },
+            {
+              "value": "10 km"
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          [
+            {
+              "value": "6.8 l\u002F100km (comb.)"
+            },
+            {
+              "value": "154 g CO₂\u002Fkm (comb.)"
+            },
+            {
+              "value": "CO₂ class E (comb.)"
+            }
+          ]
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus Meyer GmbH",
+          "location": "21255 Tostedt",
+          "rating": {
+            "score": 4.5,
+            "count": 53
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)4182 4093912",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409304883?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409304883?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€28,890",
+          "grossAmount": 28890,
+          "grossCurrency": "EUR",
+          "net": "€24,277",
+          "netAmount": 24277.31,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409304883&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 16,
+        "attr": {
+          "cn": "DE",
+          "z": "21255",
+          "loc": "Tostedt",
+          "fr": "11\u002F2024",
+          "yc": "2024",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "10 km",
+          "cc": "1,984 ccm",
+          "csmpt": "6.8 l\u002F100km (comb.)",
+          "emiss": "154 g CO₂\u002Fkm (comb.)",
+          "co2class": "CO₂ class E (comb.)",
+          "tr": "Automatic",
+          "gi": "New",
+          "subc": "Employee's Car",
+          "ecol": "Black",
+          "eu": "EU edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409304863&loanType=balloon&loanDuration=60&downPayment=5778",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 5778,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 23112,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 312.27,
+              "finalInstallment": 9533.7,
+              "totalInterest": 4845.64,
+              "totalAmount": 27957.64,
+              "localized": {
+                "downPayment": "€5,778",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€23,112",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€313",
+                "finalInstallment": "€9,533.70",
+                "totalInterest": "€4,845.64",
+                "totalAmount": "€27,957.64",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€313",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€313",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 312.27,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 312.27,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 459173,
+        "priceRating": {
+          "rating": "GOOD_PRICE",
+          "ratingLabel": "Good price",
+          "thresholdLabels": [
+            "€23,200",
+            "€27,500",
+            "€28,900",
+            "€31,100",
+            "€34,600",
+            "€39,400"
+          ],
+          "vehiclePriceOffset": 99
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409304863,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 11\u002F2024"
+            },
+            {
+              "value": "10 km"
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          [
+            {
+              "value": "6.8 l\u002F100km (comb.)"
+            },
+            {
+              "value": "154 g CO₂\u002Fkm (comb.)"
+            },
+            {
+              "value": "CO₂ class E (comb.)"
+            }
+          ]
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus Meyer GmbH",
+          "location": "21255 Tostedt",
+          "rating": {
+            "score": 4.5,
+            "count": 53
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)4182 4093912",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409304863?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409304863?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€28,890",
+          "grossAmount": 28890,
+          "grossCurrency": "EUR",
+          "net": "€24,277",
+          "netAmount": 24277.31,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409304863&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 15,
+        "attr": {
+          "cn": "DE",
+          "z": "85445",
+          "loc": "Oberding",
+          "fr": "09\u002F2011",
+          "pw": "132 kW (179 hp)",
+          "ft": "Petrol",
+          "ml": "196,000 km",
+          "cc": "1,390 ccm",
+          "tr": "Automatic",
+          "gi": "11\u002F2026",
+          "ecol": "Black",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "SmallCar",
+          "emc": "Euro5"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "1.4 TSI DSG GTI Neue Tuv 11.2026 ohne Mänge",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409304854&loanType=balloon&loanDuration=60&downPayment=1650",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 1650,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 6600,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 89.17,
+              "finalInstallment": 2722.5,
+              "totalInterest": 1383.75,
+              "totalAmount": 7983.75,
+              "localized": {
+                "downPayment": "€1,650",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€6,600",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€90",
+                "finalInstallment": "€2,722.50",
+                "totalInterest": "€1,383.75",
+                "totalAmount": "€7,983.75",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€90",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€90",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 89.17,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 89.17,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 33833005,
+        "priceRating": {
+          "rating": "NO_RATING",
+          "ratingLabel": "No rating",
+          "noRatingReason": "mobile.de only rates the price of a vehicle if a sufficient volume of comparative data is available. If not, because too little comparable data has been advertised in the past, mobile.de is unable to make a realistic price rating."
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo 1.4 TSI DSG GTI Neue Tuv 11.2026 ohne Mänge",
+        "vc": "Car",
+        "category": "Small Car",
+        "id": 409304854,
+        "customDimensions": {
+          "10": "fsbo"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 09\u002F2011"
+            },
+            {
+              "value": "196,000 km"
+            },
+            {
+              "value": "132 kW (179 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Private Seller",
+          "location": "85445 Oberding",
+          "rating": null,
+          "logo": null,
+          "hasContactPhones": false,
+          "contactPhone": null,
+          "country": "DE",
+          "sellerType": "FSBO"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409304854?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409304854?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd7\u002Fd77dbe80-cf2b-4319-9a94-841bf0bd2af9?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd7\u002Fd77dbe80-cf2b-4319-9a94-841bf0bd2af9?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd7\u002Fd77dbe80-cf2b-4319-9a94-841bf0bd2af9?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd7\u002Fd77dbe80-cf2b-4319-9a94-841bf0bd2af9?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd7\u002Fd77dbe80-cf2b-4319-9a94-841bf0bd2af9?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo 1.4 TSI DSG GTI Neue Tuv 11.2026 ohne Mänge - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€8,250",
+          "grossAmount": 8250,
+          "grossCurrency": "EUR"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409304854&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 18,
+        "attr": {
+          "cn": "DE",
+          "z": "21255",
+          "loc": "Tostedt",
+          "fr": "11\u002F2024",
+          "yc": "2024",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "10 km",
+          "cc": "1,984 ccm",
+          "csmpt": "6.8 l\u002F100km (comb.)",
+          "emiss": "154 g CO₂\u002Fkm (comb.)",
+          "co2class": "CO₂ class E (comb.)",
+          "tr": "Automatic",
+          "gi": "New",
+          "subc": "Employee's Car",
+          "ecol": "Grey",
+          "eu": "EU edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409304822&loanType=balloon&loanDuration=60&downPayment=5778",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 5778,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 23112,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 312.27,
+              "finalInstallment": 9533.7,
+              "totalInterest": 4845.64,
+              "totalAmount": 27957.64,
+              "localized": {
+                "downPayment": "€5,778",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€23,112",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€313",
+                "finalInstallment": "€9,533.70",
+                "totalInterest": "€4,845.64",
+                "totalAmount": "€27,957.64",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€313",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€313",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 312.27,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 312.27,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 459173,
+        "priceRating": {
+          "rating": "GOOD_PRICE",
+          "ratingLabel": "Good price",
+          "thresholdLabels": [
+            "€23,200",
+            "€27,500",
+            "€28,900",
+            "€31,100",
+            "€34,600",
+            "€39,400"
+          ],
+          "vehiclePriceOffset": 99
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409304822,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 11\u002F2024"
+            },
+            {
+              "value": "10 km"
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          [
+            {
+              "value": "6.8 l\u002F100km (comb.)"
+            },
+            {
+              "value": "154 g CO₂\u002Fkm (comb.)"
+            },
+            {
+              "value": "CO₂ class E (comb.)"
+            }
+          ]
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus Meyer GmbH",
+          "location": "21255 Tostedt",
+          "rating": {
+            "score": 4.5,
+            "count": 53
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)4182 4093912",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409304822?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409304822?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€28,890",
+          "grossAmount": 28890,
+          "grossCurrency": "EUR",
+          "net": "€24,277",
+          "netAmount": 24277.31,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409304822&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 18,
+        "attr": {
+          "cn": "DE",
+          "z": "21255",
+          "loc": "Tostedt",
+          "fr": "11\u002F2024",
+          "yc": "2024",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "10 km",
+          "cc": "1,984 ccm",
+          "csmpt": "6.8 l\u002F100km (comb.)",
+          "emiss": "154 g CO₂\u002Fkm (comb.)",
+          "co2class": "CO₂ class E (comb.)",
+          "tr": "Automatic",
+          "gi": "New",
+          "subc": "Employee's Car",
+          "ecol": "Grey",
+          "eu": "EU edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409304796&loanType=balloon&loanDuration=60&downPayment=5778",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 5778,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 23112,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 312.27,
+              "finalInstallment": 9533.7,
+              "totalInterest": 4845.64,
+              "totalAmount": 27957.64,
+              "localized": {
+                "downPayment": "€5,778",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€23,112",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€313",
+                "finalInstallment": "€9,533.70",
+                "totalInterest": "€4,845.64",
+                "totalAmount": "€27,957.64",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€313",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€313",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 312.27,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 312.27,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 459173,
+        "priceRating": {
+          "rating": "GOOD_PRICE",
+          "ratingLabel": "Good price",
+          "thresholdLabels": [
+            "€23,200",
+            "€27,500",
+            "€28,900",
+            "€31,100",
+            "€34,600",
+            "€39,400"
+          ],
+          "vehiclePriceOffset": 99
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409304796,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 11\u002F2024"
+            },
+            {
+              "value": "10 km"
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          [
+            {
+              "value": "6.8 l\u002F100km (comb.)"
+            },
+            {
+              "value": "154 g CO₂\u002Fkm (comb.)"
+            },
+            {
+              "value": "CO₂ class E (comb.)"
+            }
+          ]
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus Meyer GmbH",
+          "location": "21255 Tostedt",
+          "rating": {
+            "score": 4.5,
+            "count": 53
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)4182 4093912",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409304796?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409304796?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F80\u002F802beecf-b7bc-4ea3-ac28-d859d9057b41?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€28,890",
+          "grossAmount": 28890,
+          "grossCurrency": "EUR",
+          "net": "€24,277",
+          "netAmount": 24277.31,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409304796&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "slotId": "SRP_TABLECELL_UPPER",
+        "type": "inlineAdvertising"
+      },
+      {
+        "slotId": "SRP_TABLECELL_UPPER_ADSENSE",
+        "type": "inlineAdvertising"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 16,
+        "attr": {
+          "cn": "DE",
+          "z": "21255",
+          "loc": "Tostedt",
+          "fr": "11\u002F2024",
+          "yc": "2024",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "10 km",
+          "cc": "1,984 ccm",
+          "csmpt": "6.8 l\u002F100km (comb.)",
+          "emiss": "154 g CO₂\u002Fkm (comb.)",
+          "co2class": "CO₂ class E (comb.)",
+          "tr": "Automatic",
+          "gi": "New",
+          "subc": "Employee's Car",
+          "ecol": "Black",
+          "eu": "EU edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409304768&loanType=balloon&loanDuration=60&downPayment=5778",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 5778,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 23112,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 312.27,
+              "finalInstallment": 9533.7,
+              "totalInterest": 4845.64,
+              "totalAmount": 27957.64,
+              "localized": {
+                "downPayment": "€5,778",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€23,112",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€313",
+                "finalInstallment": "€9,533.70",
+                "totalInterest": "€4,845.64",
+                "totalAmount": "€27,957.64",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€313",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€313",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 312.27,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 312.27,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 459173,
+        "priceRating": {
+          "rating": "GOOD_PRICE",
+          "ratingLabel": "Good price",
+          "thresholdLabels": [
+            "€23,200",
+            "€27,500",
+            "€28,900",
+            "€31,100",
+            "€34,600",
+            "€39,400"
+          ],
+          "vehiclePriceOffset": 99
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409304768,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 11\u002F2024"
+            },
+            {
+              "value": "10 km"
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          [
+            {
+              "value": "6.8 l\u002F100km (comb.)"
+            },
+            {
+              "value": "154 g CO₂\u002Fkm (comb.)"
+            },
+            {
+              "value": "CO₂ class E (comb.)"
+            }
+          ]
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus Meyer GmbH",
+          "location": "21255 Tostedt",
+          "rating": {
+            "score": 4.5,
+            "count": 53
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)4182 4093912",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409304768?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409304768?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F00\u002F00730bae-d403-4757-8571-66eb45192058?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€28,890",
+          "grossAmount": 28890,
+          "grossCurrency": "EUR",
+          "net": "€24,277",
+          "netAmount": 24277.31,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409304768&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 18,
+        "attr": {
+          "cn": "DE",
+          "z": "21255",
+          "loc": "Tostedt",
+          "fr": "11\u002F2024",
+          "yc": "2024",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "10 km",
+          "cc": "1,984 ccm",
+          "csmpt": "6.8 l\u002F100km (comb.)",
+          "emiss": "154 g CO₂\u002Fkm (comb.)",
+          "co2class": "CO₂ class E (comb.)",
+          "tr": "Automatic",
+          "gi": "New",
+          "subc": "Employee's Car",
+          "ecol": "Grey",
+          "eu": "EU edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409304727&loanType=balloon&loanDuration=60&downPayment=5778",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 5778,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 23112,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 312.27,
+              "finalInstallment": 9533.7,
+              "totalInterest": 4845.64,
+              "totalAmount": 27957.64,
+              "localized": {
+                "downPayment": "€5,778",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€23,112",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€313",
+                "finalInstallment": "€9,533.70",
+                "totalInterest": "€4,845.64",
+                "totalAmount": "€27,957.64",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€313",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€313",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 312.27,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 312.27,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 459173,
+        "priceRating": {
+          "rating": "REASONABLE_PRICE",
+          "ratingLabel": "Fair price",
+          "thresholdLabels": [
+            "€23,000",
+            "€27,300",
+            "€28,700",
+            "€30,900",
+            "€34,400",
+            "€39,200"
+          ],
+          "vehiclePriceOffset": 8
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409304727,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 11\u002F2024"
+            },
+            {
+              "value": "10 km"
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          [
+            {
+              "value": "6.8 l\u002F100km (comb.)"
+            },
+            {
+              "value": "154 g CO₂\u002Fkm (comb.)"
+            },
+            {
+              "value": "CO₂ class E (comb.)"
+            }
+          ]
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus Meyer GmbH",
+          "location": "21255 Tostedt",
+          "rating": {
+            "score": 4.5,
+            "count": 53
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)4182 4093912",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409304727?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409304727?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd8\u002Fd89983af-c430-4f98-825d-ea1b2ba71d9e?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd8\u002Fd89983af-c430-4f98-825d-ea1b2ba71d9e?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd8\u002Fd89983af-c430-4f98-825d-ea1b2ba71d9e?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd8\u002Fd89983af-c430-4f98-825d-ea1b2ba71d9e?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd8\u002Fd89983af-c430-4f98-825d-ea1b2ba71d9e?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo GTI 2.0 TSI DSG *IQ.LIGHT, IQ.DRIVE, Kamera - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€28,890",
+          "grossAmount": 28890,
+          "grossCurrency": "EUR",
+          "net": "€24,277",
+          "netAmount": 24277.31,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409304727&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 9,
+        "attr": {
+          "cn": "DE",
+          "z": "22335",
+          "loc": "Hamburg Fuhlsbüttel",
+          "fr": "06\u002F2018",
+          "pw": "147 kW (200 hp)",
+          "ft": "Petrol",
+          "ml": "66,432 km",
+          "tr": "Automatic",
+          "gi": "09\u002F2025",
+          "c": "SmallCar"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "VW Polo GTI 2.0 DSG\u002F Virtual Co...",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409303475&loanType=balloon&loanDuration=60&downPayment=3978",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 3978,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 15912,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 214.99,
+              "finalInstallment": 6563.7,
+              "totalInterest": 3336.09,
+              "totalAmount": 19248.09,
+              "localized": {
+                "downPayment": "€3,978",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€15,912",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€215",
+                "finalInstallment": "€6,563.70",
+                "totalInterest": "€3,336.09",
+                "totalAmount": "€19,248.09",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€215",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€215",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 214.99,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 214.99,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 7723851,
+        "priceRating": {
+          "rating": "INCREASED_PRICE",
+          "ratingLabel": "Increased price",
+          "thresholdLabels": [
+            "€13,300",
+            "€15,800",
+            "€16,900",
+            "€18,900",
+            "€21,600",
+            "€22,600"
+          ],
+          "vehiclePriceOffset": 36
+        },
+        "segment": "Car",
+        "partnerName": "kleinanzeigen",
+        "title": "Volkswagen VW Polo GTI 2.0 DSG\u002F Virtual Co...",
+        "vc": "Car",
+        "category": "Small Car",
+        "id": 409303475,
+        "customDimensions": {
+          "10": "partner"
+        },
+        "attributes": [
+          [
+            {
+              "value": "FR 06\u002F2018"
+            },
+            {
+              "value": "66,432 km"
+            },
+            {
+              "value": "147 kW (200 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Private Seller",
+          "location": "22335 Hamburg Fuhlsbüttel",
+          "rating": null,
+          "logo": null,
+          "hasContactPhones": false,
+          "contactPhone": null,
+          "country": "DE",
+          "sellerType": "FSBO"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409303475?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409303475?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F75\u002F75b918d4-2abc-41c5-987f-401d7d9c9b40?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F75\u002F75b918d4-2abc-41c5-987f-401d7d9c9b40?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F75\u002F75b918d4-2abc-41c5-987f-401d7d9c9b40?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F75\u002F75b918d4-2abc-41c5-987f-401d7d9c9b40?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F75\u002F75b918d4-2abc-41c5-987f-401d7d9c9b40?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen VW Polo GTI 2.0 DSG\u002F Virtual Co... - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€19,890",
+          "grossAmount": 19890,
+          "grossCurrency": "EUR"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409303475&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "slotId": "SRP_INPAGE_VIDEO",
+        "type": "inlineAdvertising"
+      },
+      {
+        "slotId": "SRP_TABLECELL_LOWER",
+        "type": "inlineAdvertising"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 18,
+        "attr": {
+          "cn": "DE",
+          "z": "15745",
+          "loc": "Wildau",
+          "fr": "01\u002F2019",
+          "pw": "147 kW (200 hp)",
+          "ft": "Petrol",
+          "ml": "92,400 km",
+          "cc": "1,984 ccm",
+          "tr": "Automatic",
+          "gi": "New",
+          "ecol": "Blue",
+          "eu": "German edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "emc": "Euro6",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "2.0 TSI DSG GTI*BEATS EDITION*ACC*LED*",
+        "isVideoEnabled": true,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409303361&loanType=balloon&loanDuration=60&downPayment=3678",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 3678,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 14712,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 198.78,
+              "finalInstallment": 6068.7,
+              "totalInterest": 3084.5,
+              "totalAmount": 17796.5,
+              "localized": {
+                "downPayment": "€3,678",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€14,712",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€199",
+                "finalInstallment": "€6,068.70",
+                "totalInterest": "€3,084.50",
+                "totalAmount": "€17,796.50",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€199",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€199",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 198.78,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 198.78,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 36857551,
+        "priceRating": {
+          "rating": "GOOD_PRICE",
+          "ratingLabel": "Good price",
+          "thresholdLabels": [
+            "€14,900",
+            "€17,700",
+            "€18,900",
+            "€21,200",
+            "€24,200",
+            "€25,300"
+          ],
+          "vehiclePriceOffset": 57
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo 2.0 TSI DSG GTI*BEATS EDITION*ACC*LED*",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409303361,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CDU"
+        },
+        "customDimensions": {
+          "10": "gold"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 01\u002F2019"
+            },
+            {
+              "value": "92,400 km"
+            },
+            {
+              "value": "147 kW (200 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Europe Key GmbH",
+          "location": "15745 Wildau",
+          "rating": {
+            "score": 5,
+            "count": 1
+          },
+          "logo": {
+            "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fff\u002Fff143193-afb9-45a1-adae-ee8947609a74?rule=mo-80.jpg",
+            "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fff\u002Fff143193-afb9-45a1-adae-ee8947609a74?rule=mo-80.jpg 80w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fff\u002Fff143193-afb9-45a1-adae-ee8947609a74?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fff\u002Fff143193-afb9-45a1-adae-ee8947609a74?rule=mo-240.jpg 240w",
+            "alt": "Europe Key GmbH"
+          },
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)176 61292718",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409303361?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409303361?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fbe\u002Fbea9ca64-0d1f-41cb-b5c6-d293b9770bdf?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fbe\u002Fbea9ca64-0d1f-41cb-b5c6-d293b9770bdf?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fbe\u002Fbea9ca64-0d1f-41cb-b5c6-d293b9770bdf?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fbe\u002Fbea9ca64-0d1f-41cb-b5c6-d293b9770bdf?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fbe\u002Fbea9ca64-0d1f-41cb-b5c6-d293b9770bdf?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo 2.0 TSI DSG GTI*BEATS EDITION*ACC*LED* - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€18,390",
+          "grossAmount": 18390,
+          "grossCurrency": "EUR"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409303361&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 15,
+        "attr": {
+          "cn": "DE",
+          "z": "14959",
+          "loc": "Trebbin",
+          "fr": "06\u002F2023",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "20,000 km",
+          "cc": "1,984 ccm",
+          "tr": "Automatic",
+          "gi": "New",
+          "ecol": "Blue",
+          "eu": "EU edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "SmallCar",
+          "pvo": "1"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "2.0 TSI OPF DSG GTI MATRIX*SHZ*PDC*APP",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409301760&loanType=balloon&loanDuration=60&downPayment=4999",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 4999,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 20000,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 270.23,
+              "finalInstallment": 8249.67,
+              "totalInterest": 4193.13,
+              "totalAmount": 24193.13,
+              "localized": {
+                "downPayment": "€4,999",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€20,000",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€271",
+                "finalInstallment": "€8,249.67",
+                "totalInterest": "€4,193.13",
+                "totalAmount": "€24,193.13",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€271",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€271",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 270.23,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 270.23,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 35016274,
+        "priceRating": {
+          "rating": "VERY_GOOD_PRICE",
+          "ratingLabel": "Very good price",
+          "thresholdLabels": [
+            "€21,100",
+            "€25,200",
+            "€26,800",
+            "€30,100",
+            "€34,400",
+            "€35,900"
+          ],
+          "vehiclePriceOffset": 95
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo 2.0 TSI OPF DSG GTI MATRIX*SHZ*PDC*APP",
+        "vc": "Car",
+        "category": "Small Car",
+        "id": 409301760,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "bronze"
+        },
+        "attributes": [
+          [
+            {
+              "value": "FR 06\u002F2023"
+            },
+            {
+              "value": "20,000 km"
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus 23",
+          "location": "14959 Trebbin",
+          "rating": {
+            "score": 4.9,
+            "count": 6
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)178 5384911",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409301760?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409301760?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F23\u002F234f78b5-501a-44a4-bd24-88164a6f983c?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F23\u002F234f78b5-501a-44a4-bd24-88164a6f983c?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F23\u002F234f78b5-501a-44a4-bd24-88164a6f983c?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F23\u002F234f78b5-501a-44a4-bd24-88164a6f983c?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F23\u002F234f78b5-501a-44a4-bd24-88164a6f983c?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo 2.0 TSI OPF DSG GTI MATRIX*SHZ*PDC*APP - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€24,999",
+          "grossAmount": 24999,
+          "grossCurrency": "EUR"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409301760&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 13,
+        "attr": {
+          "cn": "DE",
+          "z": "59757",
+          "loc": "Arnsberg",
+          "fr": "11\u002F2019",
+          "pw": "147 kW (200 hp)",
+          "ft": "Petrol",
+          "ml": "34,911 km",
+          "cc": "1,984 ccm",
+          "tr": "Automatic",
+          "gi": "New",
+          "ecol": "Black",
+          "eu": "German edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "SmallCar",
+          "emc": "Euro6",
+          "pvo": "1",
+          "nw": "1,355 kg"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "VI GTI DSG LED 1.Hand",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=408406884&loanType=balloon&loanDuration=60&downPayment=3980",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 3980,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 15920,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 215.1,
+              "finalInstallment": 6567,
+              "totalInterest": 3337.77,
+              "totalAmount": 19257.77,
+              "localized": {
+                "downPayment": "€3,980",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€15,920",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€216",
+                "finalInstallment": "€6,567.00",
+                "totalInterest": "€3,337.77",
+                "totalAmount": "€19,257.77",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€216",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€216",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 215.1,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 215.1,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 484767,
+        "priceRating": {
+          "rating": "GOOD_PRICE",
+          "ratingLabel": "Good price",
+          "thresholdLabels": [
+            "€15,700",
+            "€18,600",
+            "€19,900",
+            "€22,200",
+            "€25,500",
+            "€26,700"
+          ],
+          "vehiclePriceOffset": 100
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo VI GTI DSG LED 1.Hand",
+        "vc": "Car",
+        "category": "Small Car",
+        "id": 408406884,
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 11\u002F2019"
+            },
+            {
+              "value": "34,911 km"
+            },
+            {
+              "value": "147 kW (200 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Ze Autohandel GmbH",
+          "location": "59757 Arnsberg",
+          "rating": {
+            "score": 4.8,
+            "count": 28
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)2932 894511",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F408406884?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F408406884?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F1f\u002F1f8f4cef-803b-46ea-be36-ff6314f356a1?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F1f\u002F1f8f4cef-803b-46ea-be36-ff6314f356a1?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F1f\u002F1f8f4cef-803b-46ea-be36-ff6314f356a1?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F1f\u002F1f8f4cef-803b-46ea-be36-ff6314f356a1?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F1f\u002F1f8f4cef-803b-46ea-be36-ff6314f356a1?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo VI GTI DSG LED 1.Hand - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€19,900",
+          "grossAmount": 19900,
+          "grossCurrency": "EUR"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=408406884&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 30,
+        "attr": {
+          "cn": "DE",
+          "z": "46562",
+          "loc": "Voerde",
+          "fr": "06\u002F2020",
+          "pw": "147 kW (200 hp)",
+          "ft": "Petrol",
+          "ml": "60,000 km",
+          "cc": "1,984 ccm",
+          "tr": "Automatic",
+          "gi": "New",
+          "ecol": "Blue",
+          "eu": "German edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "emc": "Euro6",
+          "pvo": "2",
+          "nw": "1,350 kg"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "VI 2.0 TSI GTI*BMT*DSG*NAVI*LED*200PS*OPF*",
+        "isVideoEnabled": true,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409290910&loanType=balloon&loanDuration=60&downPayment=3899",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 3899,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 15600,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 210.78,
+              "finalInstallment": 6434.67,
+              "totalInterest": 3270.63,
+              "totalAmount": 18870.63,
+              "localized": {
+                "downPayment": "€3,899",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€15,600",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€211",
+                "finalInstallment": "€6,434.67",
+                "totalInterest": "€3,270.63",
+                "totalAmount": "€18,870.63",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€211",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€211",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 210.78,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 210.78,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "highlights": [
+          "HU + Inspektion neu"
+        ],
+        "sellerId": 30031178,
+        "priceRating": {
+          "rating": "GOOD_PRICE",
+          "ratingLabel": "Good price",
+          "thresholdLabels": [
+            "€15,800",
+            "€18,900",
+            "€20,100",
+            "€22,600",
+            "€25,800",
+            "€26,900"
+          ],
+          "vehiclePriceOffset": 49
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo VI 2.0 TSI GTI*BMT*DSG*NAVI*LED*200PS*OPF*",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409290910,
+        "customDimensions": {
+          "10": "gold"
+        },
+        "attributes": [
+          [
+            {
+              "value": "FR 06\u002F2020"
+            },
+            {
+              "value": "60,000 km"
+            },
+            {
+              "value": "147 kW (200 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "CarDeal 24",
+          "location": "46562 Voerde",
+          "rating": {
+            "score": 4.6,
+            "count": 20
+          },
+          "logo": {
+            "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F53\u002F53076bfb-774a-47aa-9eca-a816b8617a87?rule=mo-80.jpg",
+            "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F53\u002F53076bfb-774a-47aa-9eca-a816b8617a87?rule=mo-80.jpg 80w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F53\u002F53076bfb-774a-47aa-9eca-a816b8617a87?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F53\u002F53076bfb-774a-47aa-9eca-a816b8617a87?rule=mo-240.jpg 240w",
+            "alt": "CarDeal 24"
+          },
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)163 9561567",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409290910?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409290910?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9b\u002F9b727543-aebe-4e33-8369-85222403dad1?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9b\u002F9b727543-aebe-4e33-8369-85222403dad1?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9b\u002F9b727543-aebe-4e33-8369-85222403dad1?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9b\u002F9b727543-aebe-4e33-8369-85222403dad1?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F9b\u002F9b727543-aebe-4e33-8369-85222403dad1?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo VI 2.0 TSI GTI*BMT*DSG*NAVI*LED*200PS*OPF* - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€19,499",
+          "grossAmount": 19499,
+          "grossCurrency": "EUR"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409290910&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 1,
+        "attr": {
+          "cn": "DE",
+          "z": "98693",
+          "loc": "Ilmenau",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "10 km",
+          "cc": "1,984 ccm",
+          "csmpt": "6.8 l\u002F100km (comb.)",
+          "emiss": "154 g CO₂\u002Fkm (comb.)",
+          "co2class": "CO₂ class E (comb.)",
+          "tr": "Automatic",
+          "con": "New car",
+          "ecol": "Black",
+          "eu": "German edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "emc": "Euro 6e",
+          "nw": "1,378 kg"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "2.0 TSI DSG GTI IQ-LIGHT*NAV*SHZ*ACC*PDC*KA",
+        "isVideoEnabled": false,
+        "isConditionNew": true,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409288439&loanType=balloon&loanDuration=60&downPayment=6996",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 6996,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 27984,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 378.1,
+              "finalInstallment": 11543.4,
+              "totalInterest": 5867.09,
+              "totalAmount": 33851.09,
+              "localized": {
+                "downPayment": "€6,996",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€27,984",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€379",
+                "finalInstallment": "€11,543.40",
+                "totalInterest": "€5,867.09",
+                "totalAmount": "€33,851.09",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€379",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€379",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 378.1,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 378.1,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 459678,
+        "segment": "Car",
+        "title": "Volkswagen Polo 2.0 TSI DSG GTI IQ-LIGHT*NAV*SHZ*ACC*PDC*KA",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409288439,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "New car",
+              "bold": true
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          [
+            {
+              "value": "6.8 l\u002F100km (comb.)"
+            },
+            {
+              "value": "154 g CO₂\u002Fkm (comb.)"
+            },
+            {
+              "value": "CO₂ class E (comb.)"
+            }
+          ]
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Ehrhardt AG Ilmenau",
+          "location": "98693 Ilmenau",
+          "rating": {
+            "score": 4.3,
+            "count": 11
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)3677 46800",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409288439?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409288439?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcc\u002Fcc58e4b4-8e71-4522-93f6-be93fc162b20?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcc\u002Fcc58e4b4-8e71-4522-93f6-be93fc162b20?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcc\u002Fcc58e4b4-8e71-4522-93f6-be93fc162b20?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcc\u002Fcc58e4b4-8e71-4522-93f6-be93fc162b20?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fcc\u002Fcc58e4b4-8e71-4522-93f6-be93fc162b20?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo 2.0 TSI DSG GTI IQ-LIGHT*NAV*SHZ*ACC*PDC*KA - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€34,980",
+          "grossAmount": 34980,
+          "grossCurrency": "EUR",
+          "net": "€29,395",
+          "netAmount": 29394.96,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409288439&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "slotId": "T_01_ADSENSE_CSA_SRP_TOP",
+        "type": "inlineAdvertising"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 9,
+        "attr": {
+          "cn": "DE",
+          "z": "13435",
+          "loc": "Reinickendorf",
+          "fr": "03\u002F2011",
+          "pw": "155 kW (211 hp)",
+          "ft": "Petrol",
+          "ml": "218,000 km",
+          "tr": "Automatic",
+          "gi": "07\u002F2026",
+          "c": "SmallCar"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "gti 6r 1.4 tsi dsg",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409288054&loanType=balloon&loanDuration=60&downPayment=1400",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 1400,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 5600,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 75.66,
+              "finalInstallment": 2310,
+              "totalInterest": 1174.09,
+              "totalAmount": 6774.09,
+              "localized": {
+                "downPayment": "€1,400",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€5,600",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€76",
+                "finalInstallment": "€2,310.00",
+                "totalInterest": "€1,174.09",
+                "totalAmount": "€6,774.09",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€76",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€76",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 75.66,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 75.66,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 7723851,
+        "priceRating": {
+          "rating": "REASONABLE_PRICE",
+          "ratingLabel": "Fair price",
+          "thresholdLabels": [
+            "€3,500",
+            "€5,500",
+            "€6,500",
+            "€8,300",
+            "€10,500",
+            "€11,700"
+          ],
+          "vehiclePriceOffset": 27
+        },
+        "segment": "Car",
+        "partnerName": "kleinanzeigen",
+        "title": "Volkswagen Polo gti 6r 1.4 tsi dsg",
+        "vc": "Car",
+        "category": "Small Car",
+        "id": 409288054,
+        "customDimensions": {
+          "10": "partner"
+        },
+        "attributes": [
+          [
+            {
+              "value": "FR 03\u002F2011"
+            },
+            {
+              "value": "218,000 km"
+            },
+            {
+              "value": "155 kW (211 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Private Seller",
+          "location": "13435 Reinickendorf",
+          "rating": null,
+          "logo": null,
+          "hasContactPhones": false,
+          "contactPhone": null,
+          "country": "DE",
+          "sellerType": "FSBO"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409288054?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409288054?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F0b\u002F0b435b57-00d7-41ef-944f-36e33cf86e33?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F0b\u002F0b435b57-00d7-41ef-944f-36e33cf86e33?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F0b\u002F0b435b57-00d7-41ef-944f-36e33cf86e33?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F0b\u002F0b435b57-00d7-41ef-944f-36e33cf86e33?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F0b\u002F0b435b57-00d7-41ef-944f-36e33cf86e33?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo gti 6r 1.4 tsi dsg - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€7,000",
+          "grossAmount": 7000,
+          "grossCurrency": "EUR"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409288054&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 1,
+        "attr": {
+          "cn": "DE",
+          "z": "38446",
+          "loc": "Wolfsburg",
+          "fr": "04\u002F2020",
+          "pw": "147 kW (200 hp)",
+          "ft": "Petrol",
+          "ml": "44,000 km",
+          "cc": "1,984 ccm",
+          "tr": "Automatic",
+          "gi": "New",
+          "ecol": "Blue",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "emc": "Euro6",
+          "pvo": "2",
+          "nw": "1,355 kg"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "2.0 TSI DSG GTI LED Navi Kamera Roof Pack",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "DF",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F2?adId=409285483&loanType=balloon&loanDuration=60&downPayment=3794",
+            "showInGallery": true,
+            "offer": {
+              "bankId": "Santander",
+              "bankName": "Santander Consumer Bank AG",
+              "loanType": "BALLOON",
+              "downPayment": 3794,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 15176,
+              "interestRateNominal": 7.24,
+              "interestRateEffective": 7.49,
+              "monthlyInstallment": 213.06,
+              "finalInstallment": 6639.5,
+              "totalInterest": 4034.05,
+              "totalAmount": 19210.05,
+              "localized": {
+                "downPayment": "€3,794",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€15,176",
+                "interestRateNominal": "7.24%",
+                "interestRateEffective": "7.49%",
+                "monthlyInstallment": "€214",
+                "finalInstallment": "€6,639.50",
+                "totalInterest": "€4,034.05",
+                "totalAmount": "€19,210.05",
+                "disclaimer": "Repräsentatives Beispiel: Vorstehende Angaben stellen zugleich das 2\u002F3-Beispiel gem. § 17 Abs. 4 PAngV dar. Ein Finanzierungsangebot der Santander Consumer Bank AG, Santander-Platz 1, 41061 Mönchengladbach (Darlehensgeber). Bonität vorausgesetzt."
+              }
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "bankId": "Santander",
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 453158,
+        "priceRating": {
+          "rating": "VERY_GOOD_PRICE",
+          "ratingLabel": "Very good price",
+          "thresholdLabels": [
+            "€17,000",
+            "€20,200",
+            "€21,500",
+            "€24,200",
+            "€27,600",
+            "€28,800"
+          ],
+          "vehiclePriceOffset": 61
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo 2.0 TSI DSG GTI LED Navi Kamera Roof Pack",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 409285483,
+        "customDimensions": {
+          "10": "platinum"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 04\u002F2020"
+            },
+            {
+              "value": "44,000 km"
+            },
+            {
+              "value": "147 kW (200 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Autohaus Koller GmbH & Co. KG",
+          "location": "38446 Wolfsburg",
+          "rating": {
+            "score": 4.3,
+            "count": 95
+          },
+          "logo": {
+            "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F03\u002F031fabf9-8fd7-4a8a-8ad0-2584fc1928c6?rule=mo-80.jpg",
+            "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F03\u002F031fabf9-8fd7-4a8a-8ad0-2584fc1928c6?rule=mo-80.jpg 80w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F03\u002F031fabf9-8fd7-4a8a-8ad0-2584fc1928c6?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F03\u002F031fabf9-8fd7-4a8a-8ad0-2584fc1928c6?rule=mo-240.jpg 240w",
+            "alt": "Autohaus Koller GmbH & Co. KG"
+          },
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)5363 972020",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409285483?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409285483?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd7\u002Fd72a1397-bf0a-4faa-8e0b-6dacd988f545?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd7\u002Fd72a1397-bf0a-4faa-8e0b-6dacd988f545?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd7\u002Fd72a1397-bf0a-4faa-8e0b-6dacd988f545?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd7\u002Fd72a1397-bf0a-4faa-8e0b-6dacd988f545?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002Fd7\u002Fd72a1397-bf0a-4faa-8e0b-6dacd988f545?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo 2.0 TSI DSG GTI LED Navi Kamera Roof Pack - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€18,970",
+          "grossAmount": 18970,
+          "grossCurrency": "EUR",
+          "net": "€15,941",
+          "netAmount": 15941.18,
+          "vat": "19% VAT"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409285483&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 14,
+        "attr": {
+          "cn": "DE",
+          "z": "99091",
+          "loc": "Erfurt",
+          "fr": "04\u002F2022",
+          "pw": "152 kW (207 hp)",
+          "ft": "Petrol",
+          "ml": "34,000 km",
+          "cc": "1,984 ccm",
+          "tr": "Automatic",
+          "gi": "04\u002F2025",
+          "eu": "German edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "Limousine",
+          "emc": "Euro6",
+          "pvo": "1",
+          "nw": "1,355 kg"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "GTI 2.0 TSI +1.Hand+DSG+Navi+TOP Zustand+  ",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "DF",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F3?adId=401354918&loanType=balloon&loanDuration=60&downPayment=4580",
+            "showInGallery": false,
+            "offer": {
+              "bankId": "Santander",
+              "bankName": "Santander Consumer Bank AG",
+              "loanType": "BALLOON",
+              "downPayment": 4580,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 18320,
+              "interestRateNominal": 6.78,
+              "interestRateEffective": 6.99,
+              "monthlyInstallment": 251.75,
+              "finalInstallment": 8015,
+              "totalInterest": 4548.49,
+              "totalAmount": 22868.49,
+              "localized": {
+                "downPayment": "€4,580",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€18,320",
+                "interestRateNominal": "6.78%",
+                "interestRateEffective": "6.99%",
+                "monthlyInstallment": "€252",
+                "finalInstallment": "€8,015.00",
+                "totalInterest": "€4,548.49",
+                "totalAmount": "€22,868.49",
+                "disclaimer": "Repräsentatives Beispiel: Vorstehende Angaben stellen zugleich das 2\u002F3-Beispiel gem. § 17 Abs. 4 PAngV dar. Ein Finanzierungsangebot der Santander Consumer Bank AG, Santander-Platz 1, 41061 Mönchengladbach (Darlehensgeber). Bonität vorausgesetzt."
+              }
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "bankId": "Santander",
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          },
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F3?adId=401354918&loanType=balloon&loanDuration=60&downPayment=4580",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 4580,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 18320,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 247.52,
+              "finalInstallment": 7557,
+              "totalInterest": 3840.95,
+              "totalAmount": 22160.95,
+              "localized": {
+                "downPayment": "€4,580",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€18,320",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€248",
+                "finalInstallment": "€7,557.00",
+                "totalInterest": "€3,840.95",
+                "totalAmount": "€22,160.95",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€248",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€248",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 247.52,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 247.52,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 9156822,
+        "priceRating": {
+          "rating": "GOOD_PRICE",
+          "ratingLabel": "Good price",
+          "thresholdLabels": [
+            "€18,700",
+            "€22,200",
+            "€23,700",
+            "€26,500",
+            "€30,400",
+            "€31,800"
+          ],
+          "vehiclePriceOffset": 46
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo GTI 2.0 TSI +1.Hand+DSG+Navi+TOP Zustand+  ",
+        "vc": "Car",
+        "category": "Saloon",
+        "id": 401354918,
+        "kba": {
+          "hsn": "0603",
+          "tsn": "CPW"
+        },
+        "customDimensions": {
+          "10": "bronze"
+        },
+        "attributes": [
+          [
+            {
+              "value": "Accident-free",
+              "bold": true
+            },
+            {
+              "value": "FR 04\u002F2022"
+            },
+            {
+              "value": "34,000 km"
+            },
+            {
+              "value": "152 kW (207 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "X solutions GmbH, Car Discount Erfurt",
+          "location": "99091 Erfurt",
+          "rating": {
+            "score": 4.8,
+            "count": 33
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)361 21233314",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F401354918?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F401354918?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F56\u002F563fd1d9-3b35-4253-a1b1-a78facb5fd2e?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F56\u002F563fd1d9-3b35-4253-a1b1-a78facb5fd2e?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F56\u002F563fd1d9-3b35-4253-a1b1-a78facb5fd2e?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F56\u002F563fd1d9-3b35-4253-a1b1-a78facb5fd2e?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F56\u002F563fd1d9-3b35-4253-a1b1-a78facb5fd2e?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo GTI 2.0 TSI +1.Hand+DSG+Navi+TOP Zustand+   - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€22,900",
+          "grossAmount": 22900,
+          "grossCurrency": "EUR"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=401354918&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      },
+      {
+        "isEyeCatcher": false,
+        "isNew": true,
+        "numImages": 20,
+        "attr": {
+          "cn": "DE",
+          "z": "71106",
+          "loc": "Magstadt",
+          "fr": "01\u002F2019",
+          "pw": "147 kW (200 hp)",
+          "ft": "Petrol",
+          "ml": "69,000 km",
+          "cc": "1,984 ccm",
+          "tr": "Automatic",
+          "gi": "04\u002F2026",
+          "ecol": "White",
+          "eu": "German edition",
+          "door": "4\u002F5",
+          "sc": "5",
+          "c": "SmallCar",
+          "emc": "Euro6",
+          "pvo": "2"
+        },
+        "shortTitle": "Volkswagen Polo",
+        "subTitle": "VI GTI DSG ACC\u002FNavi\u002FKlimaaut\u002FSHZ\u002FPDC\u002F1Hand",
+        "isVideoEnabled": false,
+        "financePlans": [
+          {
+            "type": "AO",
+            "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=403752405&loanType=balloon&loanDuration=60&downPayment=3378",
+            "showInGallery": false,
+            "offer": {
+              "bankName": "Santander Carcredit",
+              "loanBroker": "Check24 GmbH",
+              "loanType": "BALLOON",
+              "downPayment": 3378,
+              "creditTerm": 60,
+              "yearlyMileage": 10000,
+              "creditAmount": 13512,
+              "interestRateNominal": 5.83,
+              "interestRateEffective": 5.99,
+              "monthlyInstallment": 182.56,
+              "finalInstallment": 5573.7,
+              "totalInterest": 2832.91,
+              "totalAmount": 16344.91,
+              "localized": {
+                "downPayment": "€3,378",
+                "downPaymentInPercent": "20%",
+                "creditTerm": "60",
+                "creditTermInYears": "5",
+                "yearlyMileage": "10,000",
+                "creditAmount": "€13,512",
+                "interestRateNominal": "5.83%",
+                "interestRateEffective": "5.99%",
+                "monthlyInstallment": "€183",
+                "finalInstallment": "€5,573.70",
+                "totalInterest": "€2,832.91",
+                "totalAmount": "€16,344.91",
+                "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+                "minMonthlyInstallment": "€183",
+                "minInterestRateEffective": "5.99%",
+                "minInterestRateNominal": "5.83%",
+                "maxMonthlyInstallment": "€183",
+                "maxInterestRateEffective": "5.99%",
+                "maxInterestRateNominal": "5.83%"
+              },
+              "minMonthlyInstallment": 182.56,
+              "minInterestRateEffective": 5.99,
+              "minInterestRateNominal": 5.83,
+              "maxMonthlyInstallment": 182.56,
+              "maxInterestRateEffective": 5.99,
+              "maxInterestRateNominal": 5.83
+            },
+            "budgetStatus": "FALLBACK",
+            "fallback": true,
+            "downPayment": 0,
+            "loanDuration": 60,
+            "localized": {
+              "downPayment": "€0"
+            }
+          }
+        ],
+        "sellerId": 7591578,
+        "priceRating": {
+          "rating": "VERY_GOOD_PRICE",
+          "ratingLabel": "Very good price",
+          "thresholdLabels": [
+            "€14,600",
+            "€17,300",
+            "€18,400",
+            "€20,600",
+            "€23,700",
+            "€24,800"
+          ],
+          "vehiclePriceOffset": 84
+        },
+        "segment": "Car",
+        "title": "Volkswagen Polo VI GTI DSG ACC\u002FNavi\u002FKlimaaut\u002FSHZ\u002FPDC\u002F1Hand",
+        "vc": "Car",
+        "category": "Small Car",
+        "id": 403752405,
+        "customDimensions": {
+          "10": "silver"
+        },
+        "attributes": [
+          [
+            {
+              "value": "FR 01\u002F2019"
+            },
+            {
+              "value": "69,000 km"
+            },
+            {
+              "value": "147 kW (200 hp)"
+            },
+            {
+              "value": "Petrol"
+            }
+          ],
+          []
+        ],
+        "availability": null,
+        "contactInfo": {
+          "typeLocalized": "Dealer",
+          "name": "Mister CAR",
+          "location": "71106 Magstadt",
+          "rating": {
+            "score": 4.7,
+            "count": 162
+          },
+          "logo": null,
+          "hasContactPhones": true,
+          "contactPhone": "+49 (0)1577 3634489",
+          "country": "DE",
+          "sellerType": "DEALER"
+        },
+        "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F403752405?ref=srpContact",
+        "isFinancingAvailable": true,
+        "isNullLeasingBto": false,
+        "leasingRate": null,
+        "make": "Volkswagen",
+        "model": "Polo",
+        "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F403752405?lastSearch=lang%3Den",
+        "previewImage": {
+          "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F18\u002F18fadc69-28e0-46e5-83c9-d0a6d92ce195?rule=mo-160.jpg",
+          "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F18\u002F18fadc69-28e0-46e5-83c9-d0a6d92ce195?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F18\u002F18fadc69-28e0-46e5-83c9-d0a6d92ce195?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F18\u002F18fadc69-28e0-46e5-83c9-d0a6d92ce195?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F18\u002F18fadc69-28e0-46e5-83c9-d0a6d92ce195?rule=mo-1024.jpg 1024w",
+          "alt": "Volkswagen Polo VI GTI DSG ACC\u002FNavi\u002FKlimaaut\u002FSHZ\u002FPDC\u002F1Hand - Volkswagen Polo: GTI dsg"
+        },
+        "price": {
+          "gross": "€16,890",
+          "grossAmount": 16890,
+          "grossCurrency": "EUR"
+        },
+        "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=403752405&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+        "supportedLeasingType": null,
+        "type": "ad"
+      }
+    ],
+    "meta": {
+      "obsSrpBaseUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Ffilter"
+    }
+  }
+}

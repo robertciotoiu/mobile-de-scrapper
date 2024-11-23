@@ -1,0 +1,153 @@
+{
+  "isEyeCatcher": false,
+  "isNew": true,
+  "numImages": 9,
+  "attr": {
+    "cn": "DE",
+    "z": "27356",
+    "loc": "Rotenburg",
+    "fr": "07\u002F2020",
+    "pw": "147 kW (200 hp)",
+    "ft": "Petrol",
+    "ml": "41,135 km",
+    "cc": "1,984 ccm",
+    "tr": "Automatic",
+    "gi": "New",
+    "ecol": "Black",
+    "door": "4\u002F5",
+    "sc": "5",
+    "c": "SmallCar",
+    "emc": "Euro6d-TEMP",
+    "pvo": "1"
+  },
+  "shortTitle": "Volkswagen Polo",
+  "subTitle": "gti 6r 1.4 tsi dsg",
+  "isVideoEnabled": false,
+  "financePlans": [
+    {
+      "type": "AO",
+      "url": "https:\u002F\u002Fwww.mobile.de\u002Ffinanzierung\u002Froute\u002Foutlink\u002F1?adId=409288054&loanType=balloon&loanDuration=60&downPayment=1400",
+      "showInGallery": false,
+      "offer": {
+        "bankName": "Santander Carcredit",
+        "loanBroker": "Check24 GmbH",
+        "loanType": "BALLOON",
+        "downPayment": 1400,
+        "creditTerm": 60,
+        "yearlyMileage": 10000,
+        "creditAmount": 5600,
+        "interestRateNominal": 5.83,
+        "interestRateEffective": 5.99,
+        "monthlyInstallment": 75.66,
+        "finalInstallment": 2310,
+        "totalInterest": 1174.09,
+        "totalAmount": 6774.09,
+        "localized": {
+          "downPayment": "€1,400",
+          "downPaymentInPercent": "20%",
+          "creditTerm": "60",
+          "creditTermInYears": "5",
+          "yearlyMileage": "10,000",
+          "creditAmount": "€5,600",
+          "interestRateNominal": "5.83%",
+          "interestRateEffective": "5.99%",
+          "monthlyInstallment": "€76",
+          "finalInstallment": "€2,310.00",
+          "totalInterest": "€1,174.09",
+          "totalAmount": "€6,774.09",
+          "disclaimer": "Repräsentatives Beispiel gemäß § 17 Abs. 4 PAngV: Nettodarlehensbetrag von €10,000, effektiver Jahreszins 7.05%, fester Sollzinssatz 6.83% p.a., Laufzeit 60 Monate, 59 monatliche Raten à €153.07 und eine Schlussrate à €3,300.00, Gesamtbetrag €12,331.29",
+          "minMonthlyInstallment": "€76",
+          "minInterestRateEffective": "5.99%",
+          "minInterestRateNominal": "5.83%",
+          "maxMonthlyInstallment": "€76",
+          "maxInterestRateEffective": "5.99%",
+          "maxInterestRateNominal": "5.83%"
+        },
+        "minMonthlyInstallment": 75.66,
+        "minInterestRateEffective": 5.99,
+        "minInterestRateNominal": 5.83,
+        "maxMonthlyInstallment": 75.66,
+        "maxInterestRateEffective": 5.99,
+        "maxInterestRateNominal": 5.83
+      },
+      "budgetStatus": "FALLBACK",
+      "fallback": true,
+      "downPayment": 0,
+      "loanDuration": 60,
+      "localized": {
+        "downPayment": "€0"
+      }
+    }
+  ],
+  "sellerId": 7723851,
+  "priceRating": {
+    "rating": "REASONABLE_PRICE",
+    "ratingLabel": "Fair price",
+    "thresholdLabels": [
+      "€3,500",
+      "€5,500",
+      "€6,500",
+      "€8,300",
+      "€10,500",
+      "€11,700"
+    ],
+    "vehiclePriceOffset": 27
+  },
+  "segment": "Car",
+  "partnerName": "kleinanzeigen",
+  "title": "Volkswagen Polo gti 6r 1.4 tsi dsg",
+  "vc": "Car",
+  "category": "Small Car",
+  "id": 409288054,
+  "customDimensions": {
+    "10": "partner"
+  },
+  "attributes": [
+    [
+      {
+        "value": "FR 03\u002F2011"
+      },
+      {
+        "value": "218,000 km"
+      },
+      {
+        "value": "155 kW (211 hp)"
+      },
+      {
+        "value": "Petrol"
+      }
+    ],
+    []
+  ],
+  "availability": null,
+  "contactInfo": {
+    "typeLocalized": "Private Seller",
+    "location": "13435 Reinickendorf",
+    "rating": null,
+    "logo": null,
+    "hasContactPhones": false,
+    "contactPhone": null,
+    "country": "DE",
+    "sellerType": "FSBO"
+  },
+  "emailLink": "https:\u002F\u002Fwww.mobile.de\u002Fcheckout\u002Fcore\u002F409288054?ref=srpContact",
+  "isFinancingAvailable": true,
+  "isNullLeasingBto": false,
+  "leasingRate": null,
+  "make": "Volkswagen",
+  "model": "Polo",
+  "obsUrl": "https:\u002F\u002Fwww.mobile.de\u002Fonlinekauf\u002Fp\u002F409288054?lastSearch=lang%3Den",
+  "previewImage": {
+    "src": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F0b\u002F0b435b57-00d7-41ef-944f-36e33cf86e33?rule=mo-160.jpg",
+    "srcSet": "https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F0b\u002F0b435b57-00d7-41ef-944f-36e33cf86e33?rule=mo-160.jpg 160w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F0b\u002F0b435b57-00d7-41ef-944f-36e33cf86e33?rule=mo-240.jpg 240w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F0b\u002F0b435b57-00d7-41ef-944f-36e33cf86e33?rule=mo-360.jpg 360w, https:\u002F\u002Fimg.classistatic.de\u002Fapi\u002Fv1\u002Fmo-prod\u002Fimages\u002F0b\u002F0b435b57-00d7-41ef-944f-36e33cf86e33?rule=mo-1024.jpg 1024w",
+    "alt": "Volkswagen Polo gti 6r 1.4 tsi dsg - Volkswagen Polo: GTI dsg"
+  },
+  "price": {
+    "gross": "€7,000",
+    "grossAmount": 7000,
+    "grossCurrency": "EUR"
+  },
+  "relativeUrl": "\u002Ffahrzeuge\u002Fdetails.html?id=409288054&cn=DE&lang=en&ms=25200%3B27%3B%3BGTI+dsg&od=down&ref=srp&refId=daee231e-de1c-3322-944b-e3bd7889bc14&s=Car&sb=doc&searchId=daee231e-de1c-3322-944b-e3bd7889bc14&vc=Car",
+  "supportedLeasingType": null,
+  "type": "ad"
+}

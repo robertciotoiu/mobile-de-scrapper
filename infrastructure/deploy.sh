@@ -18,8 +18,8 @@ cd .. || exit
 cd infrastructure/kubernetes/ || exit
 
 
-kubectl delete namespace rc
-kubectl create namespace rc
+kubectl delete namespace mobile-de-data-collector
+kubectl create namespace mobile-de-data-collector
 
 #TODO: find a better wait to orchestrate startup order & ready awaits
 kubectl -n rc apply -f mobile-de-mongodb-configmap.yaml

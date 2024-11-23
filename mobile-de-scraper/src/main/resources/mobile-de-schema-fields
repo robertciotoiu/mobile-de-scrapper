@@ -1,0 +1,42 @@
+- id
+- make
+- model
+- attributes
+- countryCode - attr.cn
+- zipCode - attr.z
+- cityName - attr.loc
+- firstRegister - attr.fr
+- power - attr.pw
+- fuelType - attr.ft
+- mileage - attr.ml
+- cubicCapacity - attr.cc
+- transmissionType - attr.tr
+- attrGi - attr.gi
+- color - attr.ecol
+- doorCount - attr.door
+- seatCount - attr.sc
+- carType - attr.c
+- emissionCategory - attr.emc
+- attrPvo - attr.pvo
+
+- grossAmount - price.grossAmount
+- newAmount - price.netAmount
+- grossCurrency - price.grossCurrency
+- vat - price.vat
+
+- title
+- subTitle
+- shortTitle
+- segment
+- listingType - type
+- thumbnailsUrls
+- category
+
+- sellerId - sellerId
+- typeLocalized - contactInfo.typeLocalized
+- dealerName - contactInfo.name
+- dealerRatingScore - contactInfo.rating.score
+- dealerRatingCount - contactInfo.rating.count
+- sellerLocation - contactInfo.location
+- sellerType - contactInfo.sellerType
+- country - contactInfo.country
