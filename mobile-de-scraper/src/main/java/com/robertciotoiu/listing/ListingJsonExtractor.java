@@ -86,7 +86,7 @@ public class ListingJsonExtractor {
                 .sellerCountry(sellerData.sellerCountry())
                 .typeLocalized(sellerData.typeLocalized())
                 .scrapeTime(LocalDateTime.now())
-                .url("https://suchen.mobile.de/" + jsonObject.optString("relativeUrl"))
+                .url("https://suchen.mobile.de" + jsonObject.optString("relativeUrl"))
                 .categoryUrl(carSpecPageUrl)
                 .build();
 
