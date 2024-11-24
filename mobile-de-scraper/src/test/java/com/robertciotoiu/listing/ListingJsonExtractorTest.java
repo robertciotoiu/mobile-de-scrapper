@@ -17,6 +17,7 @@ public class ListingJsonExtractorTest {
 
     private final ListingJsonExtractor extractor;
     private String listingsJson;
+    private String carSpecPageUrl;
 
     @Autowired
     public ListingJsonExtractorTest(ListingJsonExtractor extractor) {
@@ -26,18 +27,19 @@ public class ListingJsonExtractorTest {
     @BeforeEach
     void setUp() throws IOException {
         listingsJson = new String(Files.readAllBytes(Paths.get("src/test/resources/initialStateSample.json")));
+        carSpecPageUrl = "https://www.mobile.de/de/Auto/Volkswagen/Polo/400685894";
     }
 
     @Test
     public void testExtractListings() throws IOException {
-        List<ListingV2> listings = extractor.extract(listingsJson);
+        List<ListingV2> listings = extractor.extract(listingsJson, carSpecPageUrl);
         assertNotNull(listings);
         assertFalse(listings.isEmpty());
     }
 
     @Test
     public void testExtractFirstListing() {
-        List<ListingV2> listings = extractor.extract(listingsJson);
+        List<ListingV2> listings = extractor.extract(listingsJson, carSpecPageUrl);
         ListingV2 firstListing = listings.get(0);
 
         assertEquals("400685894", firstListing.getId());

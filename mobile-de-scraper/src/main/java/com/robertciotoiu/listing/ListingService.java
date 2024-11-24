@@ -1,6 +1,5 @@
 package com.robertciotoiu.listing;
 
-import org.jsoup.nodes.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,8 +14,8 @@ public class ListingService {
         this.listingPersistor = listingPersistor;
     }
 
-    public void scrapeAndIngestListings(String json) {
-        var listings = listingJsonExtractor.extract(json);
+    public void scrapeAndIngestListings(String json, String carSpecPageUrl) {
+        var listings = listingJsonExtractor.extract(json, carSpecPageUrl);
         listingPersistor.persist(listings);
     }
 }

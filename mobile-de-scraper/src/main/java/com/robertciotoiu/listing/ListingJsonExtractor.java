@@ -17,13 +17,13 @@ public class ListingJsonExtractor {
     private static final Logger logger = LogManager.getLogger(ListingJsonExtractor.class);
 
 
-    public List<ListingV2> extract(String listingsJson) {
+    public List<ListingV2> extract(String listingsJson, String carSpecPageUrl) {
         var jsonArray = extractJsonArray(listingsJson);
         var listings = new ArrayList<ListingV2>();
         // Extract each listing from the JSON array
         for (int i = 0; i < jsonArray.length(); i++) {
             try {
-                var listing = extractListing(jsonArray.getJSONObject(i));
+                var listing = extractListing(jsonArray.getJSONObject(i), carSpecPageUrl);
                 listings.add(listing);
             } catch (Exception e) {
                 logger.error("Error extracting listing", e);
@@ -32,7 +32,7 @@ public class ListingJsonExtractor {
         return listings;
     }
 
-    private ListingV2 extractListing(JSONObject jsonObject) {
+    private ListingV2 extractListing(JSONObject jsonObject, String carSpecPageUrl) {
         var priceRating = getPriceRating(jsonObject);
         var attributes = getAttributes(jsonObject);
         var priceData = getPriceData(jsonObject);
@@ -86,6 +86,8 @@ public class ListingJsonExtractor {
                 .sellerCountry(sellerData.sellerCountry())
                 .typeLocalized(sellerData.typeLocalized())
                 .scrapeTime(LocalDateTime.now())
+                .url("https://suchen.mobile.de/" + jsonObject.optString("relativeUrl"))
+                .categoryUrl(carSpecPageUrl)
                 .build();
 
         listing.replaceSpecialBlankLinesFields();

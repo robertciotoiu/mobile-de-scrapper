@@ -46,7 +46,7 @@ public class ScraperService {
     }
 
     private void scrape(String json, String carSpecPageUrl) {
-        listingService.scrapeAndIngestListings(json);
+        listingService.scrapeAndIngestListings(json, carSpecPageUrl);
         carCategoryMetadataService.scrapeAndIngestCarCategoryMetadata(json, carSpecPageUrl);
     }
 

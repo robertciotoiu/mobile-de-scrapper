@@ -60,6 +60,8 @@ public class ListingV2 {
     private String sellerType;
     private String sellerCountry;
     private LocalDateTime scrapeTime;
+    private String url;
+    private String categoryUrl;
 
     public void replaceSpecialBlankLinesFields() {
         this.make = HtmlUtils.replaceSpecialBlankLines(this.make);
@@ -97,5 +99,8 @@ public class ListingV2 {
         this.sellerLocation = HtmlUtils.replaceSpecialBlankLines(this.sellerLocation);
         this.sellerType = HtmlUtils.replaceSpecialBlankLines(this.sellerType);
         this.sellerCountry = HtmlUtils.replaceSpecialBlankLines(this.sellerCountry);
+        this.url = HtmlUtils.replaceSpecialBlankLines(this.url);
+        this.url = HtmlUtils.replaceBackslash(this.url);
+        this.categoryUrl = HtmlUtils.replaceSpecialBlankLines(this.categoryUrl);
     }
 }

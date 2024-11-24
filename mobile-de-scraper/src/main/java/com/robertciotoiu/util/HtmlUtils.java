@@ -7,4 +7,11 @@ public class HtmlUtils {
         }
         return input.replaceAll("\\u00a0", " ").trim();
     }
+
+    public static String replaceBackslash(String input) {
+        if (input == null) {
+            return null;
+        }
+        return input.replaceAll("\\u002F", "/").trim();
+    }
 }
