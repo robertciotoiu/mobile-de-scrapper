@@ -190,14 +190,15 @@ public class ListingJsonExtractor {
             emissionCategory = attr.optString("emc");
             pvo = attr.optString("pvo");
         }
-        return new Attributes(countryCode, attrGi, zipCode, cityName, firstRegister, power, fuelType, mileage, cubicCapacity, transmissionType, gi, color, doorCount, seatCount, carType, emissionCategory, pvo);
+        return new Attributes(countryCode, attrGi, zipCode, cityName, firstRegister, power, fuelType, mileage, cubicCapacity,
+                transmissionType, gi, color, doorCount, seatCount, carType, emissionCategory, pvo);
     }
 
     private record Attributes(String countryCode, String attrGi, String zipCode, String cityName, String firstRegister,
-                              String power,
-                              String fuelType, String mileage, String cubicCapacity, String transmissionType, String gi,
-                              String color, String doorCount, String seatCount, String carType, String emissionCategory,
-                              String pvo) {
+                              String power, String fuelType, String mileage, String cubicCapacity,
+                              String transmissionType,
+                              String gi, String color, String doorCount, String seatCount, String carType,
+                              String emissionCategory, String pvo) {
     }
 
     private static PriceRating getPriceRating(JSONObject jsonObject) {
