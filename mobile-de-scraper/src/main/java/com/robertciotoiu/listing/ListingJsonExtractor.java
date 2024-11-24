@@ -122,7 +122,7 @@ public class ListingJsonExtractor {
     }
 
     private static List<String> getThumbnailsUrl(JSONObject jsonObject) {
-        var previewThumbnails = jsonObject.getJSONArray("previewThumbnails");
+        var previewThumbnails = jsonObject.optJSONArray("previewThumbnails");
         var thumbnailsUrl = new ArrayList<String>();
         if (previewThumbnails != null) {
             for (int j = 0; j < previewThumbnails.length(); j++) {
@@ -214,7 +214,7 @@ public class ListingJsonExtractor {
             var priceRatingLabelsJsonArray = price.optJSONArray("thresholdLabels");
             if (priceRatingLabelsJsonArray != null) {
                 for (int i = 0; i < priceRatingLabelsJsonArray.length(); i++) {
-                    priceRatingLabels.add(priceRatingLabelsJsonArray.getString(i));
+                    priceRatingLabels.add(priceRatingLabelsJsonArray.optString(i));
                 }
             }
         }
