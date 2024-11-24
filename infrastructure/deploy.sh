@@ -1,6 +1,12 @@
 # export JAVA_HOME=/c/Users/rober/.jdks/openjdk-17.0.2 && export PATH=$JAVA_HOME/bin:$PATH
 cd .. || exit
 
+docker run -d -p 5000:5000 --name registry registry:2
+if [ $? -ne 0 ]; then
+  echo "Error: docker registry failed"
+  exit 1
+fi
+
 mvn clean install -Dmaven.test.skip
 if [ $? -ne 0 ]; then
   echo "Error: maven build failed"
