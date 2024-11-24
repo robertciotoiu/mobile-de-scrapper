@@ -1,10 +1,17 @@
 # export JAVA_HOME=/c/Users/rober/.jdks/openjdk-17.0.2 && export PATH=$JAVA_HOME/bin:$PATH
 cd .. || exit
 
-docker run -d -p 5000:5000 --name registry registry:2
-if [ $? -ne 0 ]; then
-  echo "Error: docker registry failed"
-  exit 1
+# Check if a container named "registry" is running
+if docker ps --filter "name=registry" --filter "status=running" | grep -q "registry"; then
+    echo "Docker registry is already running."
+else
+    echo "Docker registry is not running. Starting it now..."
+    docker run -d -p 5000:5000 --name registry registry:2
+    if [ $? -eq 0 ]; then
+        echo "Docker registry started successfully."
+    else
+        echo "Failed to start the Docker registry."
+    fi
 fi
 
 mvn clean install -Dmaven.test.skip
