@@ -20,8 +20,8 @@ public class ListingV2 {
     private String make;
     private String model;
     private String attributes;
-    private boolean isNew;
-    private boolean isDamaged;
+    private Boolean isNew;
+    private Boolean isDamaged;
     private String countryCode;
     private String zipCode;
     private String cityName;
@@ -38,8 +38,8 @@ public class ListingV2 {
     private String carType;
     private String emissionCategory;
     private String attrPvo;
-    private long grossAmount;
-    private long netAmount;
+    private Long grossAmount;
+    private Long netAmount;
     private String grossCurrency;
     private String vat;
     private String priceRating;
@@ -54,11 +54,11 @@ public class ListingV2 {
     private List<String> thumbnailsUrl;
     private String previewImageSrc;
     private String category;
-    private long sellerId;
+    private Long sellerId;
     private String typeLocalized;
     private String sellerName;
-    private double sellerRatingScore;
-    private int sellerRatingCount;
+    private Double sellerRatingScore;
+    private Integer sellerRatingCount;
     private String sellerLocation;
     private String sellerType;
     private String sellerCountry;

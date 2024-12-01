@@ -48,8 +48,8 @@ public class ListingJsonExtractor {
                 .make(jsonObject.optString("make"))
                 .model(jsonObject.optString("model"))
                 .attributes(jsonObject.optString("attributes"))
-                .isNew(jsonObject.optBoolean("isNew"))
-                .isDamaged(jsonObject.optBoolean("isDamaged"))
+                .isNew(jsonObject.optBooleanObject("isNew", null))
+                .isDamaged(jsonObject.optBooleanObject("isDamaged", null))
                 .countryCode(attributes.countryCode())
                 .attrGi(attributes.attrGi())
                 .zipCode(attributes.zipCode())
@@ -83,7 +83,7 @@ public class ListingJsonExtractor {
                 .thumbnailsUrl(thumbnailsUrl)
                 .previewImageSrc(previewImageSrc)
                 .category(jsonObject.optString("category"))
-                .sellerId(jsonObject.optLong("sellerId"))
+                .sellerId(jsonObject.optLongObject("sellerId", null))
                 .sellerName(sellerData.sellerName())
                 .sellerRatingScore(sellerData.sellerRatingScore())
                 .sellerRatingCount(sellerData.sellerRatingCount())
@@ -115,8 +115,8 @@ public class ListingJsonExtractor {
         var typeLocalized = "";
         var sellerName = "";
         var sellerLocation = "";
-        var sellerRatingScore = 0.0;
-        var sellerRatingCount = 0;
+        Double sellerRatingScore = null;
+        Integer sellerRatingCount = null;
         var sellerCountry = "";
         var sellerType = "";
         if (contactInfo != null) {
@@ -127,15 +127,15 @@ public class ListingJsonExtractor {
             sellerType = contactInfo.optString("sellerType");
             var rating = contactInfo.optJSONObject("rating");
             if (rating != null) {
-                sellerRatingScore = rating.optDouble("score", 0.0);
-                sellerRatingCount = rating.optInt("count", 0);
+                sellerRatingScore = rating.optDoubleObject("score", null);
+                sellerRatingCount = rating.optIntegerObject("count", null);
             }
         }
         return new SellerData(typeLocalized, sellerName, sellerLocation, sellerRatingScore, sellerRatingCount, sellerCountry, sellerType);
     }
 
-    private record SellerData(String typeLocalized, String sellerName, String sellerLocation, double sellerRatingScore,
-                              int sellerRatingCount, String sellerCountry, String sellerType) {
+    private record SellerData(String typeLocalized, String sellerName, String sellerLocation, Double sellerRatingScore,
+                              Integer sellerRatingCount, String sellerCountry, String sellerType) {
     }
 
     private static List<String> getThumbnailsUrl(JSONObject jsonObject) {
@@ -153,20 +153,20 @@ public class ListingJsonExtractor {
 
     private static PriceData getPriceData(JSONObject jsonObject) {
         var price = jsonObject.optJSONObject("price");
-        var grossAmount = 0L;
-        var netAmount = 0L;
+        Long grossAmount = null;
+        Long netAmount = null;
         var grossCurrency = "";
         var vat = "";
         if (price != null) {
-            grossAmount = price.optLong("grossAmount");
-            netAmount = price.optLong("netAmount");
+            grossAmount = price.optLongObject("grossAmount", null);
+            netAmount = price.optLongObject("netAmount", null);
             grossCurrency = price.optString("grossCurrency");
             vat = price.optString("vat");
         }
         return new PriceData(grossAmount, netAmount, grossCurrency, vat);
     }
 
-    private record PriceData(long grossAmount, long netAmount, String grossCurrency, String vat) {
+    private record PriceData(Long grossAmount, Long netAmount, String grossCurrency, String vat) {
     }
 
     private static Attributes getAttributes(JSONObject jsonObject) {
