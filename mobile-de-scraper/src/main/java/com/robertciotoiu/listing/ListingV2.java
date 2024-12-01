@@ -7,6 +7,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
@@ -19,6 +20,7 @@ public class ListingV2 {
     private String make;
     private String model;
     private String attributes;
+    private boolean isNew;
     private boolean isDamaged;
     private String countryCode;
     private String zipCode;
@@ -50,6 +52,7 @@ public class ListingV2 {
     private String segment;
     private String listingType;
     private List<String> thumbnailsUrl;
+    private String previewImageSrc;
     private String category;
     private long sellerId;
     private String typeLocalized;
@@ -93,6 +96,8 @@ public class ListingV2 {
         this.shortTitle = HtmlUtils.replaceSpecialBlankLines(this.shortTitle);
         this.segment = HtmlUtils.replaceSpecialBlankLines(this.segment);
         this.listingType = HtmlUtils.replaceSpecialBlankLines(this.listingType);
+        this.thumbnailsUrl = sanitizeThumbnails();
+        this.previewImageSrc = HtmlUtils.replaceSpecialBlankLines(this.previewImageSrc);
         this.category = HtmlUtils.replaceSpecialBlankLines(this.category);
         this.typeLocalized = HtmlUtils.replaceSpecialBlankLines(this.typeLocalized);
         this.sellerName = HtmlUtils.replaceSpecialBlankLines(this.sellerName);
@@ -102,5 +107,13 @@ public class ListingV2 {
         this.url = HtmlUtils.replaceSpecialBlankLines(this.url);
         this.url = HtmlUtils.replaceBackslash(this.url);
         this.categoryUrl = HtmlUtils.replaceSpecialBlankLines(this.categoryUrl);
+    }
+
+    private ArrayList<String> sanitizeThumbnails() {
+        var sanitizedThumbnailUrls = new ArrayList<String>();
+        for(var thumbnailUrl : this.thumbnailsUrl) {
+            sanitizedThumbnailUrls.add(HtmlUtils.replaceSpecialBlankLines(thumbnailUrl));
+        }
+        return sanitizedThumbnailUrls;
     }
 }

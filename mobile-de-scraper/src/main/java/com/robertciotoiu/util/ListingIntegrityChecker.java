@@ -39,9 +39,9 @@ public class ListingIntegrityChecker {
             logger.warn("Listing city name is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
-        if (listing.getFirstRegister().isEmpty()) {
+/*        if (listing.getFirstRegister().isEmpty()) {
             logger.warn("Listing first register is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
         if (listing.getPower().isEmpty()) {
             logger.warn("Listing power is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
@@ -55,69 +55,67 @@ public class ListingIntegrityChecker {
             logger.warn("Listing mileage is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
-        if (listing.getCubicCapacity().isEmpty()) {
+/*        if (listing.getCubicCapacity().isEmpty()) {
             logger.warn("Listing cubic capacity is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
         if (listing.getTransmissionType().isEmpty()) {
             logger.warn("Listing transmission type is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
-        if (listing.getColor().isEmpty()) {
+/*        if (listing.getColor().isEmpty()) {
             logger.warn("Listing color is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
-        if (listing.getDoorCount().isEmpty()) {
+/*        if (listing.getDoorCount().isEmpty()) {
             logger.warn("Listing door count is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
         if (listing.getSeatCount().isEmpty()) {
             logger.warn("Listing seat count is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
         if (listing.getCarType().isEmpty()) {
             logger.warn("Listing car type is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
-        if (listing.getEmissionCategory().isEmpty()) {
+/*        if (listing.getEmissionCategory().isEmpty()) {
             logger.warn("Listing emission category is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
-        if (listing.getAttrPvo().isEmpty()) {
+/*        if (listing.getAttrPvo().isEmpty()) {
             logger.warn("Listing attr PVO is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
         if (listing.getGrossAmount() <= 0) {
             logger.warn("Listing gross amount is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
+/*
         if (listing.getNetAmount() <= 0) {
             logger.warn("Listing net amount is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
+*/
+/*
+        if (listing.getVat().isEmpty()) {
+            logger.warn("Listing VAT is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+        }*/
 
         if (listing.getGrossCurrency().isEmpty()) {
             logger.warn("Listing gross currency is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
-        if (listing.getVat().isEmpty()) {
-            logger.warn("Listing VAT is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
-
-        if (listing.getPriceRating().isEmpty()) {
+/*        if (listing.getPriceRating().isEmpty()) {
             logger.warn("Listing price rating is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
-        if (listing.getPriceRatingLabel().isEmpty()) {
+/*        if (listing.getPriceRatingLabel().isEmpty()) {
             logger.warn("Listing price rating label is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
-        if (listing.getPriceRatingLabels().isEmpty()) {
-            logger.warn("Listing price rating labels are missing");
-        }
-
-        if (listing.getPriceNoRatingReason().isEmpty()) {
+/*        if (listing.getPriceNoRatingReason().isEmpty()) {
             logger.warn("Listing price no rating reason is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
         if (listing.getTitle().isEmpty()) {
             logger.warn("Listing title is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
@@ -139,8 +137,12 @@ public class ListingIntegrityChecker {
             logger.warn("Listing type is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
-        if (listing.getThumbnailsUrl().isEmpty()) {
+/*        if (listing.getThumbnailsUrl().isEmpty()) {
             logger.warn("Listing thumbnails URL is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+        }*/
+
+        if (listing.getPreviewImageSrc().isEmpty()) {
+            logger.warn("Listing preview image source is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
         if (listing.getCategory().isEmpty()) {
@@ -151,9 +153,9 @@ public class ListingIntegrityChecker {
             logger.warn("Listing type localized is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
-        if (listing.getSellerName().isEmpty()) {
+/*        if (listing.getSellerName().isEmpty()) {
             logger.warn("Listing seller name is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
         if (listing.getSellerLocation().isEmpty()) {
             logger.warn("Listing seller location is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());

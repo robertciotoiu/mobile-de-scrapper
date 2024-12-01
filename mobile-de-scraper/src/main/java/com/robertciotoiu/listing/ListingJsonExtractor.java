@@ -23,6 +23,9 @@ public class ListingJsonExtractor {
         // Extract each listing from the JSON array
         for (int i = 0; i < jsonArray.length(); i++) {
             try {
+                if(jsonArray.getJSONObject(i).optString("id").isEmpty()) {
+                    continue;
+                }
                 var listing = extractListing(jsonArray.getJSONObject(i), carSpecPageUrl);
                 listings.add(listing);
             } catch (Exception e) {
@@ -38,12 +41,14 @@ public class ListingJsonExtractor {
         var priceData = getPriceData(jsonObject);
         var sellerData = getSellerData(jsonObject);
         var thumbnailsUrl = getThumbnailsUrl(jsonObject);
+        var previewImageSrc = getPreviewImageSrc(jsonObject);
 
         var listing = ListingV2.builder()
                 .id(jsonObject.optString("id"))
                 .make(jsonObject.optString("make"))
                 .model(jsonObject.optString("model"))
                 .attributes(jsonObject.optString("attributes"))
+                .isNew(jsonObject.optBoolean("isNew"))
                 .isDamaged(jsonObject.optBoolean("isDamaged"))
                 .countryCode(attributes.countryCode())
                 .attrGi(attributes.attrGi())
@@ -76,6 +81,7 @@ public class ListingJsonExtractor {
                 .segment(jsonObject.optString("segment"))
                 .listingType(jsonObject.optString("type"))
                 .thumbnailsUrl(thumbnailsUrl)
+                .previewImageSrc(previewImageSrc)
                 .category(jsonObject.optString("category"))
                 .sellerId(jsonObject.optLong("sellerId"))
                 .sellerName(sellerData.sellerName())
@@ -93,6 +99,15 @@ public class ListingJsonExtractor {
         listing.replaceSpecialBlankLinesFields();
         ListingIntegrityChecker.checkForMandatoryFields(listing);
         return listing;
+    }
+
+    private static String getPreviewImageSrc(JSONObject jsonObject) {
+        var previewImage = jsonObject.optJSONObject("previewImage");
+        var previewImageSrc = "";
+        if (previewImage != null) {
+            previewImageSrc = previewImage.optString("src");
+        }
+        return previewImageSrc;
     }
 
     private static SellerData getSellerData(JSONObject jsonObject) {
