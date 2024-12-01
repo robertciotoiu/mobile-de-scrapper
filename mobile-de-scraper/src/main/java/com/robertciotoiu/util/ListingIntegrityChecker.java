@@ -43,9 +43,9 @@ public class ListingIntegrityChecker {
             logger.warn("Listing first register is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }*/
 
-        if (listing.getPower().isEmpty()) {
+/*        if (listing.getPower().isEmpty()) {
             logger.warn("Listing power is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
         if (listing.getFuelType().isEmpty()) {
             logger.warn("Listing fuel type is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
@@ -121,9 +121,9 @@ public class ListingIntegrityChecker {
             logger.warn("Listing title is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }
 
-        if (listing.getSubTitle().isEmpty()) {
+/*        if (listing.getSubTitle().isEmpty()) {
             logger.warn("Listing sub title is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
         if (listing.getShortTitle().isEmpty()) {
             logger.warn("Listing short title is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
@@ -141,9 +141,9 @@ public class ListingIntegrityChecker {
             logger.warn("Listing thumbnails URL is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
         }*/
 
-        if (listing.getPreviewImageSrc().isEmpty()) {
+/*        if (listing.getPreviewImageSrc().isEmpty()) {
             logger.warn("Listing preview image source is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
-        }
+        }*/
 
         if (listing.getCategory().isEmpty()) {
             logger.warn("Listing category is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());

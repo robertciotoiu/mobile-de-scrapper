@@ -79,9 +79,9 @@ public class ScraperService {
             listings = scriptContent.substring(startIndex, endIndex);
 
             // Print the extracted JSON
-            System.out.println(listings);
+            logger.debug(listings);
         } else {
-            System.out.println("Script element containing window.__INITIAL_STATE__ not found.");
+            logger.error("Script element containing window.__INITIAL_STATE__ not found.");
         }
 
         return listings;
