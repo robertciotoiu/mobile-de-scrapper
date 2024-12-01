@@ -31,10 +31,10 @@ public class RabbitMQConsumer {
             scraperService.scrape(carCategoryUrl);
         } catch (Exception e) {
             // handle any exceptions
-            logger.error("Exception caught while processing carCategoryUrl: {}", e.getMessage());
+            logger.error("Exception caught while processing carCategoryUrl: {}", carCategoryUrl, e);
             // reject and requeue the carCategoryUrl
             channel.basicReject(deliveryTag, true);
-            throw new ListingExtractionException("Stopping program execution... Check and solve the parsing exception.");
+            throw new ListingExtractionException("Stopping program execution... Check and solve the parsing exception.", e);
         } finally {
             // Acknowledge the carCategoryUrl to remove it from the queue
             channel.basicAck(deliveryTag, false);
