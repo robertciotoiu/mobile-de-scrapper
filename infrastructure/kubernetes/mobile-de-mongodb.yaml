@@ -18,9 +18,15 @@ spec:
           readinessProbe:
             exec:
               command:
-                - mongo
-                - --eval
-                - db.adminCommand('ping')
+                - mongosh
+                - --port $MONGODB_PORT_NUMBER --eval "db.adminCommand('ping')"
+            initialDelaySeconds: 10
+            periodSeconds: 5
+          livenessProbe:
+            exec:
+              command:
+                - mongosh
+                - --port $MONGODB_PORT_NUMBER --eval "db.adminCommand('ping')"
             initialDelaySeconds: 10
             periodSeconds: 5
           ports:
@@ -43,7 +49,7 @@ spec:
       volumes:
         - name: mongodb-data
           hostPath:
-            path: /run/desktop/mnt/host/e/data/mobile-de-data/mongodb
+            path: /home/rserver/data/mobile-de-data/mongodb
 ---
 apiVersion: v1
 kind: Service
