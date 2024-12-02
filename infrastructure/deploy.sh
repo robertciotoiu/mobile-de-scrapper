@@ -67,19 +67,16 @@ if [ $? -ne 0 ]; then
   echo "Error: mongodb deployment failed"
   exit 1
 fi
-sleep 10s
 kubectl -n mobile-de-data-collector apply -f mobile-de-rabbitmq.yaml
 if [ $? -ne 0 ]; then
   echo "Error: rabbitmq deployment failed"
   exit 1
 fi
-sleep 10s
 kubectl -n mobile-de-data-collector apply -f mobile-de-crawler.yaml
 if [ $? -ne 0 ]; then
   echo "Error: crawler deployment failed"
   exit 1
 fi
-sleep 5s
 kubectl -n mobile-de-data-collector apply -f mobile-de-scraper.yaml
 if [ $? -ne 0 ]; then
   echo "Error: scraper deployment failed"

@@ -15,6 +15,14 @@ spec:
       containers:
         - name: mobile-de-mongodb
           image: mongo:7.0.14
+          readinessProbe:
+            exec:
+              command:
+                - mongo
+                - --eval
+                - db.adminCommand('ping')
+            initialDelaySeconds: 10
+            periodSeconds: 5
           ports:
             - containerPort: 27017
           env:
