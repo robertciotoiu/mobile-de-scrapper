@@ -25,24 +25,6 @@ spec:
       containers:
         - name: mobile-de-crawler
           image: localhost:5000/com.robertciotoiu/mobile-de-crawler:latest
-          readinessProbe:
-            httpGet:
-              path: /actuator/health/readiness
-              port: 8080
-            initialDelaySeconds: 30
-            periodSeconds: 5
-            timeoutSeconds: 5
-            failureThreshold: 3
-            successThreshold: 1
-          livenessProbe:
-            httpGet:
-              path: /actuator/health/liveness
-              port: 8080
-            initialDelaySeconds: 30
-            periodSeconds: 5
-            timeoutSeconds: 5
-            failureThreshold: 3
-            successThreshold: 1
           ports:
             - containerPort: 8080
           env:

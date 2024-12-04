@@ -32,7 +32,9 @@ public class CarCategoryCrawler {
             Elements links = doc.select("loc");
 
             for (Element link : links) {
-                carCategoryUrls.addAll(extractCarCategoryUrls(link.text()));
+                if(link.text().contains("sitemap-pls-carspecification") || link.text().contains("sitemap-pls-region-car")) {
+                    carCategoryUrls.addAll(extractCarCategoryUrls(link.text()));
+                }
             }
         } catch (IOException e) {
             logger.error("Cannot connect to mobile.de sitemap", e);
