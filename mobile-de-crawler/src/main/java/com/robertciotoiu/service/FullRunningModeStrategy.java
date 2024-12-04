@@ -12,12 +12,17 @@ import java.io.IOException;
 @Component
 public class FullRunningModeStrategy implements RunningModeStrategy {
     private static final Logger logger = LogManager.getLogger(FullRunningModeStrategy.class);
+    private final CarCategoryBaseUrlExtractor carCategoryBaseUrlExtractor;
+    private final CarCategoryParsableUrlExtractor carCategoryParsableUrlExtractor;
+    private final RabbitMQProducer rabbitMQProducer;
+
     @Autowired
-    private CarCategoryBaseUrlExtractor carCategoryBaseUrlExtractor;
-    @Autowired
-    private CarCategoryParsableUrlExtractor carCategoryParsableUrlExtractor;
-    @Autowired
-    private RabbitMQProducer rabbitMQProducer;
+    public FullRunningModeStrategy(CarCategoryBaseUrlExtractor carCategoryBaseUrlExtractor, CarCategoryParsableUrlExtractor carCategoryParsableUrlExtractor, RabbitMQProducer rabbitMQProducer) {
+        this.carCategoryBaseUrlExtractor = carCategoryBaseUrlExtractor;
+        this.carCategoryParsableUrlExtractor = carCategoryParsableUrlExtractor;
+        this.rabbitMQProducer = rabbitMQProducer;
+    }
+
     @Override
     public void execute(String url) {
         try {

@@ -6,22 +6,21 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.io.IOException;
-
 @Component
 public class NewOnlyRunningModeStrategy implements RunningModeStrategy {
     private static final Logger logger = LogManager.getLogger(NewOnlyRunningModeStrategy.class);
+    private final RabbitMQProducer rabbitMQProducer;
+    private final CarCategoryCrawler carCategoryCrawler;
+
     @Autowired
-    private CarCategoryBaseUrlExtractor carCategoryBaseUrlExtractor;
-    @Autowired
-    private RabbitMQProducer rabbitMQProducer;
+    public NewOnlyRunningModeStrategy(RabbitMQProducer rabbitMQProducer, CarCategoryCrawler carCategoryCrawler) {
+        this.rabbitMQProducer = rabbitMQProducer;
+        this.carCategoryCrawler = carCategoryCrawler;
+    }
+
     @Override
     public void execute(String url) {
-        try {
-            var carCategoryBaseUrls = carCategoryBaseUrlExtractor.extract(url);
-            rabbitMQProducer.publishMessagesToRabbitMQ(carCategoryBaseUrls);
-        } catch (IOException e) {
-            logger.error("Cannot connect to mobile.de sitemap", e);
-        }
+        var urls = carCategoryCrawler.crawl(url);
+        rabbitMQProducer.publishMessagesToRabbitMQ(urls);
     }
 }

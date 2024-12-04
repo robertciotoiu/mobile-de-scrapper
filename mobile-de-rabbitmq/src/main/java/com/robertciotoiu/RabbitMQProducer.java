@@ -13,20 +13,26 @@ import java.util.List;
 @Component
 public class RabbitMQProducer {
     private static final Logger logger = LogManager.getLogger(RabbitMQProducer.class);
-    @Autowired
-    private RabbitTemplate rabbitTemplate;
-    @Autowired
-    private MessagePostProcessor messagePostProcessor;
+
+    private final RabbitTemplate rabbitTemplate;
+    private final MessagePostProcessor messagePostProcessor;
+
     @Value("${rabbitmq.exchange}")
     private String rabbitmqExchange;
     @Value("${rabbitmq.routingkey}")
     private String rabbitmqRoutingkey;
 
+    @Autowired
+    public RabbitMQProducer(RabbitTemplate rabbitTemplate, MessagePostProcessor messagePostProcessor) {
+        this.rabbitTemplate = rabbitTemplate;
+        this.messagePostProcessor = messagePostProcessor;
+    }
+
     public void publishMessagesToRabbitMQ(List<String> messages) {
         for (String message : messages) {
             publishMessageToRabbitMQ(message);
         }
-        logger.info("Published {} messages in RabbitMQ for category", messages.size());
+        logger.info("Published {} messages in RabbitMQ for car category", messages.size());
     }
 
     public void publishMessageToRabbitMQ(String message) {
