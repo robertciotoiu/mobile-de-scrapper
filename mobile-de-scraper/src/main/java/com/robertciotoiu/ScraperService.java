@@ -37,6 +37,9 @@ public class ScraperService {
             if (isScrapable(carSpecPageUrl)) {
                 var carSpecPage = jsoupWrapper.getHtml(carSpecPageUrl);
                 var json = getJson(carSpecPage);
+                if (json == null) {
+                    return;
+                }
                 scrape(json, carSpecPageUrl);
                 setCooldown(carSpecPage, carSpecPageUrl);
             }
@@ -61,7 +64,7 @@ public class ScraperService {
     }
 
     public String getJson(Document listingPage) {
-        String listings = null;
+        String listingsJson = null;
 
         // Select the script element containing window.__INITIAL_STATE__
         Element scriptElement = listingPage.select("script").stream()
@@ -76,14 +79,14 @@ public class ScraperService {
             // Extract the JSON part from the script content
             int startIndex = scriptContent.indexOf("window.__INITIAL_STATE__ = ") + "window.__INITIAL_STATE__ = ".length();
             int endIndex = scriptContent.indexOf("window.__PUBLIC_CONFIG__", startIndex) + 1;
-            listings = scriptContent.substring(startIndex, endIndex);
+            listingsJson = scriptContent.substring(startIndex, endIndex);
 
             // Print the extracted JSON
-            logger.debug(listings);
+            logger.debug(listingsJson);
         } else {
-            logger.error("Script element containing window.__INITIAL_STATE__ not found.");
+            logger.error("Script element containing window.__INITIAL_STATE__ not found for URL: {}", listingPage.location());
         }
 
-        return listings;
+        return listingsJson;
     }
 }
