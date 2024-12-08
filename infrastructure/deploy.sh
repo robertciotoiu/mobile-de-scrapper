@@ -77,6 +77,9 @@ if [ $? -ne 0 ]; then
   echo "Error: crawler deployment failed"
   exit 1
 fi
+
+sleep 15
+
 kubectl -n mobile-de-data-collector apply -f mobile-de-scraper.yaml
 if [ $? -ne 0 ]; then
   echo "Error: scraper deployment failed"
