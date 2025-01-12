@@ -94,6 +94,7 @@ public class ListingJsonExtractor {
                 .scrapeTime(LocalDateTime.now())
                 .url("https://suchen.mobile.de" + jsonObject.optString("relativeUrl"))
                 .categoryUrl(carSpecPageUrl)
+                .active(true)
                 .build();
 
         listing.replaceSpecialBlankLinesFields();
