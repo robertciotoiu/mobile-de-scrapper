@@ -32,17 +32,17 @@ public class ListingJsonExtractorTest {
 
     @Test
     public void testExtractListings() throws IOException {
-        List<ListingV2> listings = extractor.extract(listingsJson, carSpecPageUrl);
+        List<Listing> listings = extractor.extract(listingsJson, carSpecPageUrl);
         assertNotNull(listings);
         assertFalse(listings.isEmpty());
     }
 
     @Test
     public void testExtractFirstListing() {
-        List<ListingV2> listings = extractor.extract(listingsJson, carSpecPageUrl);
-        ListingV2 firstListing = listings.get(0);
+        List<Listing> listings = extractor.extract(listingsJson, carSpecPageUrl);
+        Listing firstListing = listings.get(0);
 
-        assertEquals("400685894", firstListing.getId());
+        assertEquals("400685894", firstListing.getListingOriginalId());
         assertEquals("Volkswagen", firstListing.getMake());
         assertEquals("Polo", firstListing.getModel());
         assertEquals("DE", firstListing.getCountryCode());

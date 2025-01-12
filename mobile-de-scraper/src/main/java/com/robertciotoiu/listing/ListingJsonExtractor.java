@@ -17,9 +17,9 @@ public class ListingJsonExtractor {
     private static final Logger logger = LogManager.getLogger(ListingJsonExtractor.class);
 
 
-    public List<ListingV2> extract(String listingsJson, String carSpecPageUrl) {
+    public List<Listing> extract(String listingsJson, String carSpecPageUrl) {
         var jsonArray = extractJsonArray(listingsJson);
-        var listings = new ArrayList<ListingV2>();
+        var listings = new ArrayList<Listing>();
         // Extract each listing from the JSON array
         for (int i = 0; i < jsonArray.length(); i++) {
             try {
@@ -35,7 +35,7 @@ public class ListingJsonExtractor {
         return listings;
     }
 
-    private ListingV2 extractListing(JSONObject jsonObject, String carSpecPageUrl) {
+    private Listing extractListing(JSONObject jsonObject, String carSpecPageUrl) {
         var priceRating = getPriceRating(jsonObject);
         var attributes = getAttributes(jsonObject);
         var priceData = getPriceData(jsonObject);
@@ -43,8 +43,8 @@ public class ListingJsonExtractor {
         var thumbnailsUrl = getThumbnailsUrl(jsonObject);
         var previewImageSrc = getPreviewImageSrc(jsonObject);
 
-        var listing = ListingV2.builder()
-                .id(jsonObject.optString("id"))
+        var listing = Listing.builder()
+                .listingOriginalId(jsonObject.optString("id"))
                 .make(jsonObject.optString("make"))
                 .model(jsonObject.optString("model"))
                 .attributes(jsonObject.optString("attributes"))

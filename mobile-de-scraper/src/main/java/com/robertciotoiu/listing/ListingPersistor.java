@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+import java.util.Objects;
 
 @Component
 public class ListingPersistor {
@@ -18,9 +19,13 @@ public class ListingPersistor {
         this.repository = repository;
     }
 
-    public void persist(List<ListingV2> listings) {
+    public void persist(List<Listing> listings) {
         int totalListings = listings.size();
-        var savedListings = repository.saveAll(listings);
+        var listingsToPersist = listings.stream()
+                .filter(this::shouldPersist)
+                .toList();
+
+        var savedListings = repository.saveAll(listingsToPersist);
 
         var failedListings = listings.stream()
                 .filter(listing -> !savedListings.contains(listing))
@@ -31,5 +36,20 @@ public class ListingPersistor {
         } else {
             logger.info("All {} listings persisted successfully.", totalListings);
         }
+    }
+
+    private boolean shouldPersist(Listing newListing) {
+        var existingListings = repository.findByListingOriginalIdOrderByScrapeTimeDesc(newListing.getListingOriginalId());
+        if (existingListings.isEmpty()) {
+            return true;
+        }
+        var mostRecentListing = existingListings.get(0);
+        return !Objects.equals(mostRecentListing.getGrossAmount(), newListing.getGrossAmount()) ||
+                !Objects.equals(mostRecentListing.getNetAmount(), newListing.getNetAmount()) ||
+                !Objects.equals(mostRecentListing.getMake(), newListing.getMake()) ||
+                !Objects.equals(mostRecentListing.getModel(), newListing.getModel()) ||
+                !Objects.equals(mostRecentListing.getTitle(), newListing.getTitle()) ||
+                !Objects.equals(mostRecentListing.getUrl(), newListing.getUrl()) ||
+                !Objects.equals(mostRecentListing.getPreviewImageSrc(), newListing.getPreviewImageSrc());
     }
 }

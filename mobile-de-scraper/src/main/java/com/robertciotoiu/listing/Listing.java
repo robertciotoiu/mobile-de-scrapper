@@ -3,7 +3,10 @@ package com.robertciotoiu.listing;
 import com.robertciotoiu.util.HtmlUtils;
 import lombok.Builder;
 import lombok.Data;
+import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.CompoundIndex;
+import org.springframework.data.mongodb.core.index.CompoundIndexes;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
@@ -12,11 +15,15 @@ import java.util.List;
 
 @Data
 @Builder
-@Document(collection = "listings_v2")
-public class ListingV2 {
+@Document(collection = "listings_v3")
+@CompoundIndexes({
+        @CompoundIndex(name = "listingOriginalId_scrapeTime_idx", def = "{'listingOriginalId': -1, 'scrapeTime': -1}")
+})
+public class Listing {
 
     @Id
-    private String id;
+    private ObjectId id;
+    private String listingOriginalId;
     private String make;
     private String model;
     private String attributes;
@@ -65,6 +72,8 @@ public class ListingV2 {
     private LocalDateTime scrapeTime;
     private String url;
     private String categoryUrl;
+    private boolean active; // Flag to indicate if the listing is active
+    private LocalDateTime deactivationTime; // Time when the listing was deactivated - this is estimated based on when we checked it
 
     public void replaceSpecialBlankLinesFields() {
         this.make = HtmlUtils.replaceSpecialBlankLines(this.make);

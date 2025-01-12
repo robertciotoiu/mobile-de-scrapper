@@ -1,6 +1,6 @@
 package com.robertciotoiu.util;
 
-import com.robertciotoiu.listing.ListingV2;
+import com.robertciotoiu.listing.Listing;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -8,35 +8,35 @@ public class ListingIntegrityChecker {
 
     private static final Logger logger = LoggerFactory.getLogger(ListingIntegrityChecker.class);
 
-    public static void checkForMandatoryFields(ListingV2 listing) {
+    public static void checkForMandatoryFields(Listing listing) {
         if (listing == null) {
             logger.warn("Listing is null");
             return;
         }
 
-        if (listing.getId() == null || listing.getId().isEmpty()) {
+        if (listing.getListingOriginalId() == null || listing.getListingOriginalId().isEmpty()) {
             logger.warn("Listing ID is missing");
             return;
         }
 
         if (listing.getMake().isEmpty()) {
-            logger.warn("Listing make is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing make is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
         if (listing.getModel().isEmpty()) {
-            logger.warn("Listing model is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing model is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
         if (listing.getCountryCode().isEmpty()) {
-            logger.warn("Listing country code is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing country code is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
         if (listing.getZipCode().isEmpty()) {
-            logger.warn("Listing zip code is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing zip code is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
         if (listing.getCityName().isEmpty()) {
-            logger.warn("Listing city name is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing city name is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
 /*        if (listing.getFirstRegister().isEmpty()) {
@@ -48,11 +48,11 @@ public class ListingIntegrityChecker {
         }*/
 
         if (listing.getFuelType().isEmpty()) {
-            logger.warn("Listing fuel type is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing fuel type is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
         if (listing.getMileage().isEmpty()) {
-            logger.warn("Listing mileage is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing mileage is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
 /*        if (listing.getCubicCapacity().isEmpty()) {
@@ -60,7 +60,7 @@ public class ListingIntegrityChecker {
         }*/
 
         if (listing.getTransmissionType().isEmpty()) {
-            logger.warn("Listing transmission type is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing transmission type is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
 /*        if (listing.getColor().isEmpty()) {
@@ -76,7 +76,7 @@ public class ListingIntegrityChecker {
         }*/
 
         if (listing.getCarType().isEmpty()) {
-            logger.warn("Listing car type is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing car type is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
 /*        if (listing.getEmissionCategory().isEmpty()) {
@@ -88,7 +88,7 @@ public class ListingIntegrityChecker {
         }*/
 
         if (listing.getGrossAmount() <= 0) {
-            logger.warn("Listing gross amount is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing gross amount is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
 /*
@@ -102,7 +102,7 @@ public class ListingIntegrityChecker {
         }*/
 
         if (listing.getGrossCurrency().isEmpty()) {
-            logger.warn("Listing gross currency is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing gross currency is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
 /*        if (listing.getPriceRating().isEmpty()) {
@@ -118,7 +118,7 @@ public class ListingIntegrityChecker {
         }*/
 
         if (listing.getTitle().isEmpty()) {
-            logger.warn("Listing title is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing title is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
 /*        if (listing.getSubTitle().isEmpty()) {
@@ -126,15 +126,15 @@ public class ListingIntegrityChecker {
         }*/
 
         if (listing.getShortTitle().isEmpty()) {
-            logger.warn("Listing short title is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing short title is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
         if (listing.getSegment().isEmpty()) {
-            logger.warn("Listing segment is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing segment is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
         if (listing.getListingType().isEmpty()) {
-            logger.warn("Listing type is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing type is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
 /*        if (listing.getThumbnailsUrl().isEmpty()) {
@@ -146,11 +146,11 @@ public class ListingIntegrityChecker {
         }*/
 
         if (listing.getCategory().isEmpty()) {
-            logger.warn("Listing category is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing category is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
         if (listing.getTypeLocalized().isEmpty()) {
-            logger.warn("Listing type localized is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing type localized is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
 /*        if (listing.getSellerName().isEmpty()) {
@@ -158,11 +158,11 @@ public class ListingIntegrityChecker {
         }*/
 
         if (listing.getSellerLocation().isEmpty()) {
-            logger.warn("Listing seller location is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing seller location is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
 
         if (listing.getSellerType().isEmpty()) {
-            logger.warn("Listing seller type is missing for ID: {} and URL: {}", listing.getId(), listing.getUrl());
+            logger.warn("Listing seller type is missing for ID: {} and URL: {}", listing.getListingOriginalId(), listing.getUrl());
         }
     }
 }
