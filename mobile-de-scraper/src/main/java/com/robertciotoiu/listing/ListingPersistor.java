@@ -39,7 +39,7 @@ public class ListingPersistor {
     }
 
     private boolean shouldPersist(Listing newListing) {
-        var existingListings = repository.findByListingOriginalIdOrderByScrapeTimeDesc(newListing.getListingOriginalId());
+        var existingListings = repository.findFirstByListingOriginalIdOrderByScrapeTimeDesc(newListing.getListingOriginalId());
         if (existingListings.isEmpty()) {
             return true;
         }
